@@ -1,0 +1,3375 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/d4/65w6fpg53y1_k47h08bwgt140000gn/T/d-117822-1384-1k9mhdl.1kidswz5mi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/d4/65w6fpg53y1_k47h08bwgt140000gn/T/d-117822-1384-1k9mhdl.1kidswz5mi/package.tgz",
+        "spec": "/private/var/folders/d4/65w6fpg53y1_k47h08bwgt140000gn/T/d-117822-1384-1k9mhdl.1kidswz5mi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/d4/65w6fpg53y1_k47h08bwgt140000gn/T/apm-install-dir-117822-1384-11ebuz.9omdl8r529"
+    ]
+  ],
+  "_from": "../d-117822-1384-1k9mhdl.1kidswz5mi/package.tgz",
+  "_id": "atom-live-server@2.1.2",
+  "_inCache": true,
+  "_location": "/atom-live-server",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/d4/65w6fpg53y1_k47h08bwgt140000gn/T/d-117822-1384-1k9mhdl.1kidswz5mi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/d4/65w6fpg53y1_k47h08bwgt140000gn/T/d-117822-1384-1k9mhdl.1kidswz5mi/package.tgz",
+    "spec": "/private/var/folders/d4/65w6fpg53y1_k47h08bwgt140000gn/T/d-117822-1384-1k9mhdl.1kidswz5mi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117822-1384-1k9mhdl.1kidswz5mi/package.tgz",
+  "_shasum": "ee931557a7ca907a6a4c2bcb31108f28fa500377",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/d4/65w6fpg53y1_k47h08bwgt140000gn/T/d-117822-1384-1k9mhdl.1kidswz5mi/package.tgz",
+  "_where": "/private/var/folders/d4/65w6fpg53y1_k47h08bwgt140000gn/T/apm-install-dir-117822-1384-11ebuz.9omdl8r529",
+  "activationEvents": [
+    "atom-live-server:activate"
+  ],
+  "bugs": {
+    "url": "https://github.com/jas-chen/atom-live-server/issues"
+  },
+  "dependencies": {
+    "json5": "^0.5.1",
+    "live-server": "^1.2.0"
+  },
+  "description": "Launch a http server with live reload capability.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/jas-chen/atom-live-server#readme",
+  "keywords": [
+    "static",
+    "server",
+    "live reload",
+    "livereload"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-live-server",
+  "name": "atom-live-server",
+  "optionalDependencies": {},
+  "readme": "# atom-live-server package\n\nLaunch a simple development http server with live reload capability.\n\n![Demo](https://raw.githubusercontent.com/jas-chen/atom-live-server/master/doc/demo.gif)\n\nThis package is based on awesome [Live Server](https://github.com/tapio/live-server) project.\n\n## Usage\n\n`ctrl-alt-l` launch live server on port 3000.\n\n`ctrl-alt-q` stop live server.\n\n`ctrl-alt-3` launch live server on port 3000.\n\n`ctrl-alt-4` launch live server on port 4000.\n\n`ctrl-alt-5` launch live server on port 5000.\n\n`ctrl-alt-8` launch live server on port 8000.\n\n`ctrl-alt-9` launch live server on port 9000.\n\n\n## Options\n\nIf a file `.atom-live-server.json` exists in project root it will be loaded and used as options.\n\nThe keys of `.atom-live-server.json` should match **Command line parameters** in [live-server](https://github.com/tapio/live-server).\n\n#### Example: Launch specific browser\n```json\n{\n  \"browser\": \"safari\"\n}\n```\n\n#### Example: Start server without browser opened\n```json\n{\n  \"no-browser\": true\n}\n```\n\n#### Example: Serve this file for every 404 (useful for single-page applications)\n```json\n{\n  \"entry-file\": \"index.html\"\n}\n```\n\n#### Example: Serve this directory as root path\n```json\n{\n  \"root\": \"public\"\n}\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jas-chen/atom-live-server.git"
+  },
+  "version": "2.1.2",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "accepts",
+        "version": "1.3.4",
+        "path": "node_modules/accepts/index.js"
+      },
+      {
+        "name": "anymatch",
+        "version": "1.3.2",
+        "path": "node_modules/anymatch/index.js"
+      },
+      {
+        "name": "apache-crypt",
+        "version": "1.2.1",
+        "path": "node_modules/apache-crypt/src/index.js"
+      },
+      {
+        "name": "apache-md5",
+        "version": "1.1.2",
+        "path": "node_modules/apache-md5/src/index.js"
+      },
+      {
+        "name": "arr-diff",
+        "version": "2.0.0",
+        "path": "node_modules/arr-diff/index.js"
+      },
+      {
+        "name": "arr-flatten",
+        "version": "1.1.0",
+        "path": "node_modules/arr-flatten/index.js"
+      },
+      {
+        "name": "array-unique",
+        "version": "0.2.1",
+        "path": "node_modules/array-unique/index.js"
+      },
+      {
+        "name": "async-each",
+        "version": "1.0.1",
+        "path": "node_modules/async-each/index.js"
+      },
+      {
+        "name": "balanced-match",
+        "version": "1.0.0",
+        "path": "node_modules/balanced-match/index.js"
+      },
+      {
+        "name": "basic-auth",
+        "version": "1.1.0",
+        "path": "node_modules/basic-auth/index.js"
+      },
+      {
+        "name": "batch",
+        "version": "0.6.1",
+        "path": "node_modules/batch/index.js"
+      },
+      {
+        "name": "bcryptjs",
+        "version": "2.4.3",
+        "path": "node_modules/bcryptjs/index.js"
+      },
+      {
+        "name": "binary-extensions",
+        "version": "1.10.0",
+        "path": "node_modules/binary-extensions/binary-extensions.json"
+      },
+      {
+        "name": "brace-expansion",
+        "version": "1.1.8",
+        "path": "node_modules/brace-expansion/index.js"
+      },
+      {
+        "name": "braces",
+        "version": "1.8.5",
+        "path": "node_modules/braces/index.js"
+      },
+      {
+        "name": "chokidar",
+        "version": "1.7.0",
+        "path": "node_modules/chokidar/index.js"
+      },
+      {
+        "name": "colors",
+        "version": "1.1.2",
+        "path": "node_modules/colors/lib/index.js"
+      },
+      {
+        "name": "concat-map",
+        "version": "0.0.1",
+        "path": "node_modules/concat-map/index.js"
+      },
+      {
+        "name": "connect",
+        "version": "3.5.1",
+        "path": "node_modules/connect/index.js"
+      },
+      {
+        "name": "core-util-is",
+        "version": "1.0.2",
+        "path": "node_modules/core-util-is/lib/util.js"
+      },
+      {
+        "name": "cors",
+        "version": "2.8.4",
+        "path": "node_modules/cors/lib/index.js"
+      },
+      {
+        "name": "debug",
+        "version": "2.2.0",
+        "path": "node_modules/debug/node.js"
+      },
+      {
+        "name": "depd",
+        "version": "1.1.1",
+        "path": "node_modules/depd/index.js"
+      },
+      {
+        "name": "destroy",
+        "version": "1.0.4",
+        "path": "node_modules/destroy/index.js"
+      },
+      {
+        "name": "duplexer",
+        "version": "0.1.1",
+        "path": "node_modules/duplexer/index.js"
+      },
+      {
+        "name": "ee-first",
+        "version": "1.1.1",
+        "path": "node_modules/ee-first/index.js"
+      },
+      {
+        "name": "encodeurl",
+        "version": "1.0.1",
+        "path": "node_modules/encodeurl/index.js"
+      },
+      {
+        "name": "escape-html",
+        "version": "1.0.3",
+        "path": "node_modules/escape-html/index.js"
+      },
+      {
+        "name": "etag",
+        "version": "1.8.1",
+        "path": "node_modules/etag/index.js"
+      },
+      {
+        "name": "event-stream",
+        "version": "3.3.4",
+        "path": "node_modules/event-stream/index.js"
+      },
+      {
+        "name": "expand-brackets",
+        "version": "0.1.5",
+        "path": "node_modules/expand-brackets/index.js"
+      },
+      {
+        "name": "expand-range",
+        "version": "1.8.2",
+        "path": "node_modules/expand-range/index.js"
+      },
+      {
+        "name": "extglob",
+        "version": "0.3.2",
+        "path": "node_modules/extglob/index.js"
+      },
+      {
+        "name": "faye-websocket",
+        "version": "0.11.1",
+        "path": "node_modules/faye-websocket/lib/faye/websocket.js"
+      },
+      {
+        "name": "filename-regex",
+        "version": "2.0.1",
+        "path": "node_modules/filename-regex/index.js"
+      },
+      {
+        "name": "fill-range",
+        "version": "2.2.3",
+        "path": "node_modules/fill-range/index.js"
+      },
+      {
+        "name": "finalhandler",
+        "version": "0.5.1",
+        "path": "node_modules/finalhandler/index.js"
+      },
+      {
+        "name": "for-in",
+        "version": "1.0.2",
+        "path": "node_modules/for-in/index.js"
+      },
+      {
+        "name": "for-own",
+        "version": "0.1.5",
+        "path": "node_modules/for-own/index.js"
+      },
+      {
+        "name": "fresh",
+        "version": "0.5.2",
+        "path": "node_modules/fresh/index.js"
+      },
+      {
+        "name": "from",
+        "version": "0.1.7",
+        "path": "node_modules/from/index.js"
+      },
+      {
+        "name": "fsevents",
+        "version": "1.1.2",
+        "path": "node_modules/fsevents/fsevents.js"
+      },
+      {
+        "name": "abbrev",
+        "version": "1.1.0",
+        "path": "node_modules/fsevents/node_modules/abbrev/abbrev.js"
+      },
+      {
+        "name": "ajv",
+        "version": "4.11.8",
+        "path": "node_modules/fsevents/node_modules/ajv/lib/ajv.js"
+      },
+      {
+        "name": "ansi-regex",
+        "version": "2.1.1",
+        "path": "node_modules/fsevents/node_modules/ansi-regex/index.js"
+      },
+      {
+        "name": "aproba",
+        "version": "1.1.1",
+        "path": "node_modules/fsevents/node_modules/aproba/index.js"
+      },
+      {
+        "name": "are-we-there-yet",
+        "version": "1.1.4",
+        "path": "node_modules/fsevents/node_modules/are-we-there-yet/index.js"
+      },
+      {
+        "name": "asn1",
+        "version": "0.2.3",
+        "path": "node_modules/fsevents/node_modules/asn1/lib/index.js"
+      },
+      {
+        "name": "assert-plus",
+        "version": "0.2.0",
+        "path": "node_modules/fsevents/node_modules/assert-plus/assert.js"
+      },
+      {
+        "name": "asynckit",
+        "version": "0.4.0",
+        "path": "node_modules/fsevents/node_modules/asynckit/index.js"
+      },
+      {
+        "name": "aws-sign2",
+        "version": "0.6.0",
+        "path": "node_modules/fsevents/node_modules/aws-sign2/index.js"
+      },
+      {
+        "name": "aws4",
+        "version": "1.6.0",
+        "path": "node_modules/fsevents/node_modules/aws4/aws4.js"
+      },
+      {
+        "name": "balanced-match",
+        "version": "0.4.2",
+        "path": "node_modules/fsevents/node_modules/balanced-match/index.js"
+      },
+      {
+        "name": "bcrypt-pbkdf",
+        "version": "1.0.1",
+        "path": "node_modules/fsevents/node_modules/bcrypt-pbkdf/index.js"
+      },
+      {
+        "name": "block-stream",
+        "version": "0.0.9",
+        "path": "node_modules/fsevents/node_modules/block-stream/block-stream.js"
+      },
+      {
+        "name": "boom",
+        "version": "2.10.1",
+        "path": "node_modules/fsevents/node_modules/boom/lib/index.js"
+      },
+      {
+        "name": "brace-expansion",
+        "version": "1.1.7",
+        "path": "node_modules/fsevents/node_modules/brace-expansion/index.js"
+      },
+      {
+        "name": "buffer-shims",
+        "version": "1.0.0",
+        "path": "node_modules/fsevents/node_modules/buffer-shims/index.js"
+      },
+      {
+        "name": "caseless",
+        "version": "0.12.0",
+        "path": "node_modules/fsevents/node_modules/caseless/index.js"
+      },
+      {
+        "name": "co",
+        "version": "4.6.0",
+        "path": "node_modules/fsevents/node_modules/co/index.js"
+      },
+      {
+        "name": "code-point-at",
+        "version": "1.1.0",
+        "path": "node_modules/fsevents/node_modules/code-point-at/index.js"
+      },
+      {
+        "name": "combined-stream",
+        "version": "1.0.5",
+        "path": "node_modules/fsevents/node_modules/combined-stream/lib/combined_stream.js"
+      },
+      {
+        "name": "concat-map",
+        "version": "0.0.1",
+        "path": "node_modules/fsevents/node_modules/concat-map/index.js"
+      },
+      {
+        "name": "console-control-strings",
+        "version": "1.1.0",
+        "path": "node_modules/fsevents/node_modules/console-control-strings/index.js"
+      },
+      {
+        "name": "core-util-is",
+        "version": "1.0.2",
+        "path": "node_modules/fsevents/node_modules/core-util-is/lib/util.js"
+      },
+      {
+        "name": "cryptiles",
+        "version": "2.0.5",
+        "path": "node_modules/fsevents/node_modules/cryptiles/lib/index.js"
+      },
+      {
+        "name": "dashdash",
+        "version": "1.14.1",
+        "path": "node_modules/fsevents/node_modules/dashdash/lib/dashdash.js"
+      },
+      {
+        "name": "assert-plus",
+        "version": "1.0.0",
+        "path": "node_modules/fsevents/node_modules/dashdash/node_modules/assert-plus/assert.js"
+      },
+      {
+        "name": "debug",
+        "version": "2.6.8",
+        "path": "node_modules/fsevents/node_modules/debug/src/index.js"
+      },
+      {
+        "name": "deep-extend",
+        "version": "0.4.2",
+        "path": "node_modules/fsevents/node_modules/deep-extend/lib/deep-extend.js"
+      },
+      {
+        "name": "delayed-stream",
+        "version": "1.0.0",
+        "path": "node_modules/fsevents/node_modules/delayed-stream/lib/delayed_stream.js"
+      },
+      {
+        "name": "delegates",
+        "version": "1.0.0",
+        "path": "node_modules/fsevents/node_modules/delegates/index.js"
+      },
+      {
+        "name": "ecc-jsbn",
+        "version": "0.1.1",
+        "path": "node_modules/fsevents/node_modules/ecc-jsbn/index.js"
+      },
+      {
+        "name": "extend",
+        "version": "3.0.1",
+        "path": "node_modules/fsevents/node_modules/extend/index.js"
+      },
+      {
+        "name": "extsprintf",
+        "version": "1.0.2",
+        "path": "node_modules/fsevents/node_modules/extsprintf/lib/extsprintf.js"
+      },
+      {
+        "name": "forever-agent",
+        "version": "0.6.1",
+        "path": "node_modules/fsevents/node_modules/forever-agent/index.js"
+      },
+      {
+        "name": "form-data",
+        "version": "2.1.4",
+        "path": "node_modules/fsevents/node_modules/form-data/lib/form_data.js"
+      },
+      {
+        "name": "fs.realpath",
+        "version": "1.0.0",
+        "path": "node_modules/fsevents/node_modules/fs.realpath/index.js"
+      },
+      {
+        "name": "fstream",
+        "version": "1.0.11",
+        "path": "node_modules/fsevents/node_modules/fstream/fstream.js"
+      },
+      {
+        "name": "fstream-ignore",
+        "version": "1.0.5",
+        "path": "node_modules/fsevents/node_modules/fstream-ignore/ignore.js"
+      },
+      {
+        "name": "gauge",
+        "version": "2.7.4",
+        "path": "node_modules/fsevents/node_modules/gauge/index.js"
+      },
+      {
+        "name": "getpass",
+        "version": "0.1.7",
+        "path": "node_modules/fsevents/node_modules/getpass/lib/index.js"
+      },
+      {
+        "name": "assert-plus",
+        "version": "1.0.0",
+        "path": "node_modules/fsevents/node_modules/getpass/node_modules/assert-plus/assert.js"
+      },
+      {
+        "name": "glob",
+        "version": "7.1.2",
+        "path": "node_modules/fsevents/node_modules/glob/glob.js"
+      },
+      {
+        "name": "graceful-fs",
+        "version": "4.1.11",
+        "path": "node_modules/fsevents/node_modules/graceful-fs/graceful-fs.js"
+      },
+      {
+        "name": "har-schema",
+        "version": "1.0.5",
+        "path": "node_modules/fsevents/node_modules/har-schema/lib/index.js"
+      },
+      {
+        "name": "har-validator",
+        "version": "4.2.1",
+        "path": "node_modules/fsevents/node_modules/har-validator/lib/node4/promise.js"
+      },
+      {
+        "name": "has-unicode",
+        "version": "2.0.1",
+        "path": "node_modules/fsevents/node_modules/has-unicode/index.js"
+      },
+      {
+        "name": "hawk",
+        "version": "3.1.3",
+        "path": "node_modules/fsevents/node_modules/hawk/lib/index.js"
+      },
+      {
+        "name": "hoek",
+        "version": "2.16.3",
+        "path": "node_modules/fsevents/node_modules/hoek/lib/index.js"
+      },
+      {
+        "name": "http-signature",
+        "version": "1.1.1",
+        "path": "node_modules/fsevents/node_modules/http-signature/lib/index.js"
+      },
+      {
+        "name": "inflight",
+        "version": "1.0.6",
+        "path": "node_modules/fsevents/node_modules/inflight/inflight.js"
+      },
+      {
+        "name": "inherits",
+        "version": "2.0.3",
+        "path": "node_modules/fsevents/node_modules/inherits/inherits.js"
+      },
+      {
+        "name": "ini",
+        "version": "1.3.4",
+        "path": "node_modules/fsevents/node_modules/ini/ini.js"
+      },
+      {
+        "name": "is-fullwidth-code-point",
+        "version": "1.0.0",
+        "path": "node_modules/fsevents/node_modules/is-fullwidth-code-point/index.js"
+      },
+      {
+        "name": "is-typedarray",
+        "version": "1.0.0",
+        "path": "node_modules/fsevents/node_modules/is-typedarray/index.js"
+      },
+      {
+        "name": "isarray",
+        "version": "1.0.0",
+        "path": "node_modules/fsevents/node_modules/isarray/index.js"
+      },
+      {
+        "name": "isstream",
+        "version": "0.1.2",
+        "path": "node_modules/fsevents/node_modules/isstream/isstream.js"
+      },
+      {
+        "name": "jodid25519",
+        "version": "1.0.2",
+        "path": "node_modules/fsevents/node_modules/jodid25519/index.js"
+      },
+      {
+        "name": "jsbn",
+        "version": "0.1.1",
+        "path": "node_modules/fsevents/node_modules/jsbn/index.js"
+      },
+      {
+        "name": "json-schema",
+        "version": "0.2.3",
+        "path": "node_modules/fsevents/node_modules/json-schema/lib/validate.js"
+      },
+      {
+        "name": "json-stable-stringify",
+        "version": "1.0.1",
+        "path": "node_modules/fsevents/node_modules/json-stable-stringify/index.js"
+      },
+      {
+        "name": "json-stringify-safe",
+        "version": "5.0.1",
+        "path": "node_modules/fsevents/node_modules/json-stringify-safe/stringify.js"
+      },
+      {
+        "name": "jsonify",
+        "version": "0.0.0",
+        "path": "node_modules/fsevents/node_modules/jsonify/index.js"
+      },
+      {
+        "name": "jsprim",
+        "version": "1.4.0",
+        "path": "node_modules/fsevents/node_modules/jsprim/lib/jsprim.js"
+      },
+      {
+        "name": "assert-plus",
+        "version": "1.0.0",
+        "path": "node_modules/fsevents/node_modules/jsprim/node_modules/assert-plus/assert.js"
+      },
+      {
+        "name": "mime-db",
+        "version": "1.27.0",
+        "path": "node_modules/fsevents/node_modules/mime-db/index.js"
+      },
+      {
+        "name": "mime-types",
+        "version": "2.1.15",
+        "path": "node_modules/fsevents/node_modules/mime-types/index.js"
+      },
+      {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "path": "node_modules/fsevents/node_modules/minimatch/minimatch.js"
+      },
+      {
+        "name": "minimist",
+        "version": "0.0.8",
+        "path": "node_modules/fsevents/node_modules/minimist/index.js"
+      },
+      {
+        "name": "mkdirp",
+        "version": "0.5.1",
+        "path": "node_modules/fsevents/node_modules/mkdirp/index.js"
+      },
+      {
+        "name": "ms",
+        "version": "2.0.0",
+        "path": "node_modules/fsevents/node_modules/ms/index.js"
+      },
+      {
+        "name": "node-pre-gyp",
+        "version": "0.6.36",
+        "path": "node_modules/fsevents/node_modules/node-pre-gyp/lib/node-pre-gyp.js"
+      },
+      {
+        "name": "nopt",
+        "version": "4.0.1",
+        "path": "node_modules/fsevents/node_modules/nopt/lib/nopt.js"
+      },
+      {
+        "name": "npmlog",
+        "version": "4.1.0",
+        "path": "node_modules/fsevents/node_modules/npmlog/log.js"
+      },
+      {
+        "name": "number-is-nan",
+        "version": "1.0.1",
+        "path": "node_modules/fsevents/node_modules/number-is-nan/index.js"
+      },
+      {
+        "name": "oauth-sign",
+        "version": "0.8.2",
+        "path": "node_modules/fsevents/node_modules/oauth-sign/index.js"
+      },
+      {
+        "name": "object-assign",
+        "version": "4.1.1",
+        "path": "node_modules/fsevents/node_modules/object-assign/index.js"
+      },
+      {
+        "name": "once",
+        "version": "1.4.0",
+        "path": "node_modules/fsevents/node_modules/once/once.js"
+      },
+      {
+        "name": "os-homedir",
+        "version": "1.0.2",
+        "path": "node_modules/fsevents/node_modules/os-homedir/index.js"
+      },
+      {
+        "name": "os-tmpdir",
+        "version": "1.0.2",
+        "path": "node_modules/fsevents/node_modules/os-tmpdir/index.js"
+      },
+      {
+        "name": "osenv",
+        "version": "0.1.4",
+        "path": "node_modules/fsevents/node_modules/osenv/osenv.js"
+      },
+      {
+        "name": "path-is-absolute",
+        "version": "1.0.1",
+        "path": "node_modules/fsevents/node_modules/path-is-absolute/index.js"
+      },
+      {
+        "name": "performance-now",
+        "version": "0.2.0",
+        "path": "node_modules/fsevents/node_modules/performance-now/lib/performance-now.js"
+      },
+      {
+        "name": "process-nextick-args",
+        "version": "1.0.7",
+        "path": "node_modules/fsevents/node_modules/process-nextick-args/index.js"
+      },
+      {
+        "name": "punycode",
+        "version": "1.4.1",
+        "path": "node_modules/fsevents/node_modules/punycode/punycode.js"
+      },
+      {
+        "name": "qs",
+        "version": "6.4.0",
+        "path": "node_modules/fsevents/node_modules/qs/lib/index.js"
+      },
+      {
+        "name": "rc",
+        "version": "1.2.1",
+        "path": "node_modules/fsevents/node_modules/rc/index.js"
+      },
+      {
+        "name": "minimist",
+        "version": "1.2.0",
+        "path": "node_modules/fsevents/node_modules/rc/node_modules/minimist/index.js"
+      },
+      {
+        "name": "readable-stream",
+        "version": "2.2.9",
+        "path": "node_modules/fsevents/node_modules/readable-stream/readable.js"
+      },
+      {
+        "name": "request",
+        "version": "2.81.0",
+        "path": "node_modules/fsevents/node_modules/request/index.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.6.1",
+        "path": "node_modules/fsevents/node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "safe-buffer",
+        "version": "5.0.1",
+        "path": "node_modules/fsevents/node_modules/safe-buffer/index.js"
+      },
+      {
+        "name": "semver",
+        "version": "5.3.0",
+        "path": "node_modules/fsevents/node_modules/semver/semver.js"
+      },
+      {
+        "name": "set-blocking",
+        "version": "2.0.0",
+        "path": "node_modules/fsevents/node_modules/set-blocking/index.js"
+      },
+      {
+        "name": "signal-exit",
+        "version": "3.0.2",
+        "path": "node_modules/fsevents/node_modules/signal-exit/index.js"
+      },
+      {
+        "name": "sntp",
+        "version": "1.0.9",
+        "path": "node_modules/fsevents/node_modules/sntp/index.js"
+      },
+      {
+        "name": "sshpk",
+        "version": "1.13.0",
+        "path": "node_modules/fsevents/node_modules/sshpk/lib/index.js"
+      },
+      {
+        "name": "assert-plus",
+        "version": "1.0.0",
+        "path": "node_modules/fsevents/node_modules/sshpk/node_modules/assert-plus/assert.js"
+      },
+      {
+        "name": "string_decoder",
+        "version": "1.0.1",
+        "path": "node_modules/fsevents/node_modules/string_decoder/lib/string_decoder.js"
+      },
+      {
+        "name": "string-width",
+        "version": "1.0.2",
+        "path": "node_modules/fsevents/node_modules/string-width/index.js"
+      },
+      {
+        "name": "stringstream",
+        "version": "0.0.5",
+        "path": "node_modules/fsevents/node_modules/stringstream/stringstream.js"
+      },
+      {
+        "name": "strip-ansi",
+        "version": "3.0.1",
+        "path": "node_modules/fsevents/node_modules/strip-ansi/index.js"
+      },
+      {
+        "name": "strip-json-comments",
+        "version": "2.0.1",
+        "path": "node_modules/fsevents/node_modules/strip-json-comments/index.js"
+      },
+      {
+        "name": "tar",
+        "version": "2.2.1",
+        "path": "node_modules/fsevents/node_modules/tar/tar.js"
+      },
+      {
+        "name": "tar-pack",
+        "version": "3.4.0",
+        "path": "node_modules/fsevents/node_modules/tar-pack/index.js"
+      },
+      {
+        "name": "tough-cookie",
+        "version": "2.3.2",
+        "path": "node_modules/fsevents/node_modules/tough-cookie/lib/cookie.js"
+      },
+      {
+        "name": "tunnel-agent",
+        "version": "0.6.0",
+        "path": "node_modules/fsevents/node_modules/tunnel-agent/index.js"
+      },
+      {
+        "name": "tweetnacl",
+        "version": "0.14.5",
+        "path": "node_modules/fsevents/node_modules/tweetnacl/nacl-fast.js"
+      },
+      {
+        "name": "uid-number",
+        "version": "0.0.6",
+        "path": "node_modules/fsevents/node_modules/uid-number/uid-number.js"
+      },
+      {
+        "name": "util-deprecate",
+        "version": "1.0.2",
+        "path": "node_modules/fsevents/node_modules/util-deprecate/node.js"
+      },
+      {
+        "name": "uuid",
+        "version": "3.0.1",
+        "path": "node_modules/fsevents/node_modules/uuid/index.js"
+      },
+      {
+        "name": "verror",
+        "version": "1.3.6",
+        "path": "node_modules/fsevents/node_modules/verror/lib/verror.js"
+      },
+      {
+        "name": "wide-align",
+        "version": "1.1.2",
+        "path": "node_modules/fsevents/node_modules/wide-align/align.js"
+      },
+      {
+        "name": "wrappy",
+        "version": "1.0.2",
+        "path": "node_modules/fsevents/node_modules/wrappy/wrappy.js"
+      },
+      {
+        "name": "glob-base",
+        "version": "0.3.0",
+        "path": "node_modules/glob-base/index.js"
+      },
+      {
+        "name": "glob-parent",
+        "version": "2.0.0",
+        "path": "node_modules/glob-parent/index.js"
+      },
+      {
+        "name": "graceful-fs",
+        "version": "4.1.11",
+        "path": "node_modules/graceful-fs/graceful-fs.js"
+      },
+      {
+        "name": "http-auth",
+        "version": "3.1.3",
+        "path": "node_modules/http-auth/src/http-auth.js"
+      },
+      {
+        "name": "http-errors",
+        "version": "1.6.2",
+        "path": "node_modules/http-errors/index.js"
+      },
+      {
+        "name": "http-parser-js",
+        "version": "0.4.8",
+        "path": "node_modules/http-parser-js/http-parser.js"
+      },
+      {
+        "name": "inherits",
+        "version": "2.0.3",
+        "path": "node_modules/inherits/inherits.js"
+      },
+      {
+        "name": "is-binary-path",
+        "version": "1.0.1",
+        "path": "node_modules/is-binary-path/index.js"
+      },
+      {
+        "name": "is-buffer",
+        "version": "1.1.5",
+        "path": "node_modules/is-buffer/index.js"
+      },
+      {
+        "name": "is-dotfile",
+        "version": "1.0.3",
+        "path": "node_modules/is-dotfile/index.js"
+      },
+      {
+        "name": "is-equal-shallow",
+        "version": "0.1.3",
+        "path": "node_modules/is-equal-shallow/index.js"
+      },
+      {
+        "name": "is-extendable",
+        "version": "0.1.1",
+        "path": "node_modules/is-extendable/index.js"
+      },
+      {
+        "name": "is-extglob",
+        "version": "1.0.0",
+        "path": "node_modules/is-extglob/index.js"
+      },
+      {
+        "name": "is-glob",
+        "version": "2.0.1",
+        "path": "node_modules/is-glob/index.js"
+      },
+      {
+        "name": "is-number",
+        "version": "2.1.0",
+        "path": "node_modules/is-number/index.js"
+      },
+      {
+        "name": "is-posix-bracket",
+        "version": "0.1.1",
+        "path": "node_modules/is-posix-bracket/index.js"
+      },
+      {
+        "name": "is-primitive",
+        "version": "2.0.0",
+        "path": "node_modules/is-primitive/index.js"
+      },
+      {
+        "name": "is-wsl",
+        "version": "1.1.0",
+        "path": "node_modules/is-wsl/index.js"
+      },
+      {
+        "name": "isarray",
+        "version": "1.0.0",
+        "path": "node_modules/isarray/index.js"
+      },
+      {
+        "name": "isobject",
+        "version": "2.1.0",
+        "path": "node_modules/isobject/index.js"
+      },
+      {
+        "name": "json5",
+        "version": "0.5.1",
+        "path": "node_modules/json5/lib/json5.js"
+      },
+      {
+        "name": "kind-of",
+        "version": "3.2.2",
+        "path": "node_modules/kind-of/index.js"
+      },
+      {
+        "name": "live-server",
+        "version": "1.2.0",
+        "path": "node_modules/live-server/index.js"
+      },
+      {
+        "name": "map-stream",
+        "version": "0.1.0",
+        "path": "node_modules/map-stream/index.js"
+      },
+      {
+        "name": "micromatch",
+        "version": "2.3.11",
+        "path": "node_modules/micromatch/index.js"
+      },
+      {
+        "name": "mime",
+        "version": "1.3.4",
+        "path": "node_modules/mime/mime.js"
+      },
+      {
+        "name": "mime-db",
+        "version": "1.30.0",
+        "path": "node_modules/mime-db/index.js"
+      },
+      {
+        "name": "mime-types",
+        "version": "2.1.17",
+        "path": "node_modules/mime-types/index.js"
+      },
+      {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "path": "node_modules/minimatch/minimatch.js"
+      },
+      {
+        "name": "morgan",
+        "version": "1.8.2",
+        "path": "node_modules/morgan/index.js"
+      },
+      {
+        "name": "debug",
+        "version": "2.6.8",
+        "path": "node_modules/morgan/node_modules/debug/src/index.js"
+      },
+      {
+        "name": "ms",
+        "version": "2.0.0",
+        "path": "node_modules/morgan/node_modules/ms/index.js"
+      },
+      {
+        "name": "ms",
+        "version": "0.7.1",
+        "path": "node_modules/ms/index.js"
+      },
+      {
+        "name": "nan",
+        "version": "2.7.0",
+        "path": "node_modules/nan/include_dirs.js"
+      },
+      {
+        "name": "negotiator",
+        "version": "0.6.1",
+        "path": "node_modules/negotiator/index.js"
+      },
+      {
+        "name": "normalize-path",
+        "version": "2.1.1",
+        "path": "node_modules/normalize-path/index.js"
+      },
+      {
+        "name": "object-assign",
+        "version": "4.1.1",
+        "path": "node_modules/object-assign/index.js"
+      },
+      {
+        "name": "object.omit",
+        "version": "2.0.1",
+        "path": "node_modules/object.omit/index.js"
+      },
+      {
+        "name": "on-finished",
+        "version": "2.3.0",
+        "path": "node_modules/on-finished/index.js"
+      },
+      {
+        "name": "on-headers",
+        "version": "1.0.1",
+        "path": "node_modules/on-headers/index.js"
+      },
+      {
+        "name": "opn",
+        "version": "5.1.0",
+        "path": "node_modules/opn/index.js"
+      },
+      {
+        "name": "parse-glob",
+        "version": "3.0.4",
+        "path": "node_modules/parse-glob/index.js"
+      },
+      {
+        "name": "parseurl",
+        "version": "1.3.2",
+        "path": "node_modules/parseurl/index.js"
+      },
+      {
+        "name": "path-is-absolute",
+        "version": "1.0.1",
+        "path": "node_modules/path-is-absolute/index.js"
+      },
+      {
+        "name": "pause-stream",
+        "version": "0.0.11",
+        "path": "node_modules/pause-stream/index.js"
+      },
+      {
+        "name": "preserve",
+        "version": "0.2.0",
+        "path": "node_modules/preserve/index.js"
+      },
+      {
+        "name": "process-nextick-args",
+        "version": "1.0.7",
+        "path": "node_modules/process-nextick-args/index.js"
+      },
+      {
+        "name": "proxy-middleware",
+        "version": "0.15.0",
+        "path": "node_modules/proxy-middleware/index.js"
+      },
+      {
+        "name": "randomatic",
+        "version": "1.1.7",
+        "path": "node_modules/randomatic/index.js"
+      },
+      {
+        "name": "is-number",
+        "version": "3.0.0",
+        "path": "node_modules/randomatic/node_modules/is-number/index.js"
+      },
+      {
+        "name": "kind-of",
+        "version": "3.2.2",
+        "path": "node_modules/randomatic/node_modules/is-number/node_modules/kind-of/index.js"
+      },
+      {
+        "name": "kind-of",
+        "version": "4.0.0",
+        "path": "node_modules/randomatic/node_modules/kind-of/index.js"
+      },
+      {
+        "name": "range-parser",
+        "version": "1.2.0",
+        "path": "node_modules/range-parser/index.js"
+      },
+      {
+        "name": "readable-stream",
+        "version": "2.3.3",
+        "path": "node_modules/readable-stream/readable.js"
+      },
+      {
+        "name": "readdirp",
+        "version": "2.1.0",
+        "path": "node_modules/readdirp/readdirp.js"
+      },
+      {
+        "name": "regex-cache",
+        "version": "0.4.4",
+        "path": "node_modules/regex-cache/index.js"
+      },
+      {
+        "name": "remove-trailing-separator",
+        "version": "1.1.0",
+        "path": "node_modules/remove-trailing-separator/index.js"
+      },
+      {
+        "name": "repeat-element",
+        "version": "1.1.2",
+        "path": "node_modules/repeat-element/index.js"
+      },
+      {
+        "name": "repeat-string",
+        "version": "1.6.1",
+        "path": "node_modules/repeat-string/index.js"
+      },
+      {
+        "name": "safe-buffer",
+        "version": "5.1.1",
+        "path": "node_modules/safe-buffer/index.js"
+      },
+      {
+        "name": "send",
+        "version": "0.15.5",
+        "path": "node_modules/send/index.js"
+      },
+      {
+        "name": "debug",
+        "version": "2.6.8",
+        "path": "node_modules/send/node_modules/debug/src/index.js"
+      },
+      {
+        "name": "ms",
+        "version": "2.0.0",
+        "path": "node_modules/send/node_modules/ms/index.js"
+      },
+      {
+        "name": "serve-index",
+        "version": "1.9.0",
+        "path": "node_modules/serve-index/index.js"
+      },
+      {
+        "name": "debug",
+        "version": "2.6.8",
+        "path": "node_modules/serve-index/node_modules/debug/src/index.js"
+      },
+      {
+        "name": "ms",
+        "version": "2.0.0",
+        "path": "node_modules/serve-index/node_modules/ms/index.js"
+      },
+      {
+        "name": "set-immediate-shim",
+        "version": "1.0.1",
+        "path": "node_modules/set-immediate-shim/index.js"
+      },
+      {
+        "name": "setprototypeof",
+        "version": "1.0.3",
+        "path": "node_modules/setprototypeof/index.js"
+      },
+      {
+        "name": "split",
+        "version": "0.3.3",
+        "path": "node_modules/split/index.js"
+      },
+      {
+        "name": "statuses",
+        "version": "1.3.1",
+        "path": "node_modules/statuses/index.js"
+      },
+      {
+        "name": "stream-combiner",
+        "version": "0.0.4",
+        "path": "node_modules/stream-combiner/index.js"
+      },
+      {
+        "name": "string_decoder",
+        "version": "1.0.3",
+        "path": "node_modules/string_decoder/lib/string_decoder.js"
+      },
+      {
+        "name": "through",
+        "version": "2.3.8",
+        "path": "node_modules/through/index.js"
+      },
+      {
+        "name": "unix-crypt-td-js",
+        "version": "1.0.0",
+        "path": "node_modules/unix-crypt-td-js/src/unix-crypt-td.js"
+      },
+      {
+        "name": "unpipe",
+        "version": "1.0.0",
+        "path": "node_modules/unpipe/index.js"
+      },
+      {
+        "name": "util-deprecate",
+        "version": "1.0.2",
+        "path": "node_modules/util-deprecate/node.js"
+      },
+      {
+        "name": "utils-merge",
+        "version": "1.0.0",
+        "path": "node_modules/utils-merge/index.js"
+      },
+      {
+        "name": "uuid",
+        "version": "3.1.0",
+        "path": "node_modules/uuid/index.js"
+      },
+      {
+        "name": "vary",
+        "version": "1.1.1",
+        "path": "node_modules/vary/index.js"
+      },
+      {
+        "name": "websocket-driver",
+        "version": "0.7.0",
+        "path": "node_modules/websocket-driver/lib/websocket/driver.js"
+      },
+      {
+        "name": "websocket-extensions",
+        "version": "0.1.2",
+        "path": "node_modules/websocket-extensions/lib/websocket_extensions.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "lib/atom-live-server.js",
+        "node_modules/accepts/index.js",
+        "node_modules/anymatch/index.js",
+        "node_modules/apache-crypt/src/index.js",
+        "node_modules/apache-md5/src/index.js",
+        "node_modules/arr-diff/index.js",
+        "node_modules/arr-flatten/index.js",
+        "node_modules/array-unique/index.js",
+        "node_modules/async-each/index.js",
+        "node_modules/balanced-match/index.js",
+        "node_modules/basic-auth/index.js",
+        "node_modules/batch/index.js",
+        "node_modules/bcryptjs/dist/bcrypt.js",
+        "node_modules/bcryptjs/dist/bcrypt.min.js",
+        "node_modules/bcryptjs/externs/bcrypt.js",
+        "node_modules/bcryptjs/externs/minimal-env.js",
+        "node_modules/bcryptjs/index.js",
+        "node_modules/bcryptjs/scripts/build.js",
+        "node_modules/bcryptjs/src/bcrypt/impl.js",
+        "node_modules/bcryptjs/src/bcrypt/prng/accum.js",
+        "node_modules/bcryptjs/src/bcrypt/prng/isaac.js",
+        "node_modules/bcryptjs/src/bcrypt/util/base64.js",
+        "node_modules/bcryptjs/src/bcrypt/util.js",
+        "node_modules/bcryptjs/src/bcrypt.js",
+        "node_modules/bcryptjs/src/wrap.js",
+        "node_modules/brace-expansion/index.js",
+        "node_modules/braces/index.js",
+        "node_modules/chokidar/index.js",
+        "node_modules/chokidar/lib/fsevents-handler.js",
+        "node_modules/chokidar/lib/nodefs-handler.js",
+        "node_modules/colors/examples/normal-usage.js",
+        "node_modules/colors/examples/safe-string.js",
+        "node_modules/colors/lib/colors.js",
+        "node_modules/colors/lib/custom/trap.js",
+        "node_modules/colors/lib/custom/zalgo.js",
+        "node_modules/colors/lib/extendStringPrototype.js",
+        "node_modules/colors/lib/index.js",
+        "node_modules/colors/lib/maps/america.js",
+        "node_modules/colors/lib/maps/rainbow.js",
+        "node_modules/colors/lib/maps/random.js",
+        "node_modules/colors/lib/maps/zebra.js",
+        "node_modules/colors/lib/styles.js",
+        "node_modules/colors/lib/system/supports-colors.js",
+        "node_modules/colors/safe.js",
+        "node_modules/colors/themes/generic-logging.js",
+        "node_modules/concat-map/example/map.js",
+        "node_modules/concat-map/index.js",
+        "node_modules/connect/index.js",
+        "node_modules/core-util-is/lib/util.js",
+        "node_modules/core-util-is/test.js",
+        "node_modules/cors/lib/index.js",
+        "node_modules/debug/browser.js",
+        "node_modules/debug/debug.js",
+        "node_modules/debug/node.js",
+        "node_modules/depd/index.js",
+        "node_modules/depd/lib/browser/index.js",
+        "node_modules/depd/lib/compat/callsite-tostring.js",
+        "node_modules/depd/lib/compat/event-listener-count.js",
+        "node_modules/depd/lib/compat/index.js",
+        "node_modules/destroy/index.js",
+        "node_modules/duplexer/index.js",
+        "node_modules/ee-first/index.js",
+        "node_modules/encodeurl/index.js",
+        "node_modules/escape-html/index.js",
+        "node_modules/etag/index.js",
+        "node_modules/event-stream/examples/pretty.js",
+        "node_modules/event-stream/index.js",
+        "node_modules/expand-brackets/index.js",
+        "node_modules/expand-range/index.js",
+        "node_modules/extglob/index.js",
+        "node_modules/faye-websocket/examples/autobahn_client.js",
+        "node_modules/faye-websocket/examples/client.js",
+        "node_modules/faye-websocket/examples/proxy_server.js",
+        "node_modules/faye-websocket/examples/server.js",
+        "node_modules/faye-websocket/lib/faye/eventsource.js",
+        "node_modules/faye-websocket/lib/faye/websocket/api/event.js",
+        "node_modules/faye-websocket/lib/faye/websocket/api/event_target.js",
+        "node_modules/faye-websocket/lib/faye/websocket/api.js",
+        "node_modules/faye-websocket/lib/faye/websocket/client.js",
+        "node_modules/faye-websocket/lib/faye/websocket.js",
+        "node_modules/filename-regex/index.js",
+        "node_modules/fill-range/index.js",
+        "node_modules/finalhandler/index.js",
+        "node_modules/for-in/index.js",
+        "node_modules/for-own/index.js",
+        "node_modules/fresh/index.js",
+        "node_modules/from/index.js",
+        "node_modules/fsevents/fsevents.js",
+        "node_modules/fsevents/install.js",
+        "node_modules/fsevents/node_modules/abbrev/abbrev.js",
+        "node_modules/fsevents/node_modules/ajv/.tonic_example.js",
+        "node_modules/fsevents/node_modules/ajv/dist/ajv.bundle.js",
+        "node_modules/fsevents/node_modules/ajv/dist/ajv.min.js",
+        "node_modules/fsevents/node_modules/ajv/dist/nodent.min.js",
+        "node_modules/fsevents/node_modules/ajv/dist/regenerator.min.js",
+        "node_modules/fsevents/node_modules/ajv/lib/ajv.js",
+        "node_modules/fsevents/node_modules/ajv/lib/async.js",
+        "node_modules/fsevents/node_modules/ajv/lib/cache.js",
+        "node_modules/fsevents/node_modules/ajv/lib/compile/_rules.js",
+        "node_modules/fsevents/node_modules/ajv/lib/compile/equal.js",
+        "node_modules/fsevents/node_modules/ajv/lib/compile/formats.js",
+        "node_modules/fsevents/node_modules/ajv/lib/compile/index.js",
+        "node_modules/fsevents/node_modules/ajv/lib/compile/resolve.js",
+        "node_modules/fsevents/node_modules/ajv/lib/compile/rules.js",
+        "node_modules/fsevents/node_modules/ajv/lib/compile/schema_obj.js",
+        "node_modules/fsevents/node_modules/ajv/lib/compile/ucs2length.js",
+        "node_modules/fsevents/node_modules/ajv/lib/compile/util.js",
+        "node_modules/fsevents/node_modules/ajv/lib/compile/validation_error.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/_formatLimit.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/_limit.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/_limitItems.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/_limitLength.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/_limitProperties.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/allOf.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/anyOf.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/constant.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/custom.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/dependencies.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/enum.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/format.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/items.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/multipleOf.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/not.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/oneOf.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/pattern.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/patternRequired.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/properties.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/ref.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/required.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/switch.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/uniqueItems.js",
+        "node_modules/fsevents/node_modules/ajv/lib/dotjs/validate.js",
+        "node_modules/fsevents/node_modules/ajv/lib/keyword.js",
+        "node_modules/fsevents/node_modules/ajv/lib/v5.js",
+        "node_modules/fsevents/node_modules/ajv/scripts/bundle.js",
+        "node_modules/fsevents/node_modules/ajv/scripts/compile-dots.js",
+        "node_modules/fsevents/node_modules/ansi-regex/index.js",
+        "node_modules/fsevents/node_modules/aproba/index.js",
+        "node_modules/fsevents/node_modules/are-we-there-yet/index.js",
+        "node_modules/fsevents/node_modules/are-we-there-yet/tracker-base.js",
+        "node_modules/fsevents/node_modules/are-we-there-yet/tracker-group.js",
+        "node_modules/fsevents/node_modules/are-we-there-yet/tracker-stream.js",
+        "node_modules/fsevents/node_modules/are-we-there-yet/tracker.js",
+        "node_modules/fsevents/node_modules/asn1/lib/ber/errors.js",
+        "node_modules/fsevents/node_modules/asn1/lib/ber/index.js",
+        "node_modules/fsevents/node_modules/asn1/lib/ber/reader.js",
+        "node_modules/fsevents/node_modules/asn1/lib/ber/types.js",
+        "node_modules/fsevents/node_modules/asn1/lib/ber/writer.js",
+        "node_modules/fsevents/node_modules/asn1/lib/index.js",
+        "node_modules/fsevents/node_modules/asn1/tst/ber/reader.test.js",
+        "node_modules/fsevents/node_modules/asn1/tst/ber/writer.test.js",
+        "node_modules/fsevents/node_modules/assert-plus/assert.js",
+        "node_modules/fsevents/node_modules/asynckit/bench.js",
+        "node_modules/fsevents/node_modules/asynckit/index.js",
+        "node_modules/fsevents/node_modules/asynckit/lib/abort.js",
+        "node_modules/fsevents/node_modules/asynckit/lib/async.js",
+        "node_modules/fsevents/node_modules/asynckit/lib/defer.js",
+        "node_modules/fsevents/node_modules/asynckit/lib/iterate.js",
+        "node_modules/fsevents/node_modules/asynckit/lib/readable_asynckit.js",
+        "node_modules/fsevents/node_modules/asynckit/lib/readable_parallel.js",
+        "node_modules/fsevents/node_modules/asynckit/lib/readable_serial.js",
+        "node_modules/fsevents/node_modules/asynckit/lib/readable_serial_ordered.js",
+        "node_modules/fsevents/node_modules/asynckit/lib/state.js",
+        "node_modules/fsevents/node_modules/asynckit/lib/streamify.js",
+        "node_modules/fsevents/node_modules/asynckit/lib/terminator.js",
+        "node_modules/fsevents/node_modules/asynckit/parallel.js",
+        "node_modules/fsevents/node_modules/asynckit/serial.js",
+        "node_modules/fsevents/node_modules/asynckit/serialOrdered.js",
+        "node_modules/fsevents/node_modules/asynckit/stream.js",
+        "node_modules/fsevents/node_modules/aws-sign2/index.js",
+        "node_modules/fsevents/node_modules/aws4/aws4.js",
+        "node_modules/fsevents/node_modules/aws4/lru.js",
+        "node_modules/fsevents/node_modules/balanced-match/index.js",
+        "node_modules/fsevents/node_modules/bcrypt-pbkdf/index.js",
+        "node_modules/fsevents/node_modules/block-stream/block-stream.js",
+        "node_modules/fsevents/node_modules/boom/lib/index.js",
+        "node_modules/fsevents/node_modules/brace-expansion/index.js",
+        "node_modules/fsevents/node_modules/buffer-shims/index.js",
+        "node_modules/fsevents/node_modules/caseless/index.js",
+        "node_modules/fsevents/node_modules/caseless/test.js",
+        "node_modules/fsevents/node_modules/co/index.js",
+        "node_modules/fsevents/node_modules/code-point-at/index.js",
+        "node_modules/fsevents/node_modules/combined-stream/lib/combined_stream.js",
+        "node_modules/fsevents/node_modules/concat-map/example/map.js",
+        "node_modules/fsevents/node_modules/concat-map/index.js",
+        "node_modules/fsevents/node_modules/console-control-strings/index.js",
+        "node_modules/fsevents/node_modules/core-util-is/lib/util.js",
+        "node_modules/fsevents/node_modules/core-util-is/test.js",
+        "node_modules/fsevents/node_modules/cryptiles/lib/index.js",
+        "node_modules/fsevents/node_modules/dashdash/lib/dashdash.js",
+        "node_modules/fsevents/node_modules/dashdash/node_modules/assert-plus/assert.js",
+        "node_modules/fsevents/node_modules/debug/karma.conf.js",
+        "node_modules/fsevents/node_modules/debug/node.js",
+        "node_modules/fsevents/node_modules/debug/src/browser.js",
+        "node_modules/fsevents/node_modules/debug/src/debug.js",
+        "node_modules/fsevents/node_modules/debug/src/index.js",
+        "node_modules/fsevents/node_modules/debug/src/node.js",
+        "node_modules/fsevents/node_modules/deep-extend/index.js",
+        "node_modules/fsevents/node_modules/deep-extend/lib/deep-extend.js",
+        "node_modules/fsevents/node_modules/delayed-stream/lib/delayed_stream.js",
+        "node_modules/fsevents/node_modules/delegates/index.js",
+        "node_modules/fsevents/node_modules/ecc-jsbn/index.js",
+        "node_modules/fsevents/node_modules/ecc-jsbn/lib/ec.js",
+        "node_modules/fsevents/node_modules/ecc-jsbn/lib/sec.js",
+        "node_modules/fsevents/node_modules/ecc-jsbn/test.js",
+        "node_modules/fsevents/node_modules/extend/index.js",
+        "node_modules/fsevents/node_modules/extsprintf/examples/simple.js",
+        "node_modules/fsevents/node_modules/extsprintf/lib/extsprintf.js",
+        "node_modules/fsevents/node_modules/forever-agent/index.js",
+        "node_modules/fsevents/node_modules/form-data/lib/browser.js",
+        "node_modules/fsevents/node_modules/form-data/lib/form_data.js",
+        "node_modules/fsevents/node_modules/form-data/lib/populate.js",
+        "node_modules/fsevents/node_modules/fs.realpath/index.js",
+        "node_modules/fsevents/node_modules/fs.realpath/old.js",
+        "node_modules/fsevents/node_modules/fstream/examples/filter-pipe.js",
+        "node_modules/fsevents/node_modules/fstream/examples/pipe.js",
+        "node_modules/fsevents/node_modules/fstream/examples/reader.js",
+        "node_modules/fsevents/node_modules/fstream/examples/symlink-write.js",
+        "node_modules/fsevents/node_modules/fstream/fstream.js",
+        "node_modules/fsevents/node_modules/fstream/lib/abstract.js",
+        "node_modules/fsevents/node_modules/fstream/lib/collect.js",
+        "node_modules/fsevents/node_modules/fstream/lib/dir-reader.js",
+        "node_modules/fsevents/node_modules/fstream/lib/dir-writer.js",
+        "node_modules/fsevents/node_modules/fstream/lib/file-reader.js",
+        "node_modules/fsevents/node_modules/fstream/lib/file-writer.js",
+        "node_modules/fsevents/node_modules/fstream/lib/get-type.js",
+        "node_modules/fsevents/node_modules/fstream/lib/link-reader.js",
+        "node_modules/fsevents/node_modules/fstream/lib/link-writer.js",
+        "node_modules/fsevents/node_modules/fstream/lib/proxy-reader.js",
+        "node_modules/fsevents/node_modules/fstream/lib/proxy-writer.js",
+        "node_modules/fsevents/node_modules/fstream/lib/reader.js",
+        "node_modules/fsevents/node_modules/fstream/lib/socket-reader.js",
+        "node_modules/fsevents/node_modules/fstream/lib/writer.js",
+        "node_modules/fsevents/node_modules/fstream-ignore/ignore.js",
+        "node_modules/fsevents/node_modules/gauge/base-theme.js",
+        "node_modules/fsevents/node_modules/gauge/error.js",
+        "node_modules/fsevents/node_modules/gauge/has-color.js",
+        "node_modules/fsevents/node_modules/gauge/index.js",
+        "node_modules/fsevents/node_modules/gauge/plumbing.js",
+        "node_modules/fsevents/node_modules/gauge/process.js",
+        "node_modules/fsevents/node_modules/gauge/progress-bar.js",
+        "node_modules/fsevents/node_modules/gauge/render-template.js",
+        "node_modules/fsevents/node_modules/gauge/set-immediate.js",
+        "node_modules/fsevents/node_modules/gauge/set-interval.js",
+        "node_modules/fsevents/node_modules/gauge/spin.js",
+        "node_modules/fsevents/node_modules/gauge/template-item.js",
+        "node_modules/fsevents/node_modules/gauge/theme-set.js",
+        "node_modules/fsevents/node_modules/gauge/themes.js",
+        "node_modules/fsevents/node_modules/gauge/wide-truncate.js",
+        "node_modules/fsevents/node_modules/getpass/lib/index.js",
+        "node_modules/fsevents/node_modules/getpass/node_modules/assert-plus/assert.js",
+        "node_modules/fsevents/node_modules/glob/common.js",
+        "node_modules/fsevents/node_modules/glob/glob.js",
+        "node_modules/fsevents/node_modules/glob/sync.js",
+        "node_modules/fsevents/node_modules/graceful-fs/fs.js",
+        "node_modules/fsevents/node_modules/graceful-fs/graceful-fs.js",
+        "node_modules/fsevents/node_modules/graceful-fs/legacy-streams.js",
+        "node_modules/fsevents/node_modules/graceful-fs/polyfills.js",
+        "node_modules/fsevents/node_modules/har-schema/lib/index.js",
+        "node_modules/fsevents/node_modules/har-validator/lib/browser/async.js",
+        "node_modules/fsevents/node_modules/har-validator/lib/browser/error.js",
+        "node_modules/fsevents/node_modules/har-validator/lib/browser/promise.js",
+        "node_modules/fsevents/node_modules/har-validator/lib/node4/async.js",
+        "node_modules/fsevents/node_modules/har-validator/lib/node4/error.js",
+        "node_modules/fsevents/node_modules/har-validator/lib/node4/promise.js",
+        "node_modules/fsevents/node_modules/har-validator/lib/node6/async.js",
+        "node_modules/fsevents/node_modules/har-validator/lib/node6/error.js",
+        "node_modules/fsevents/node_modules/har-validator/lib/node6/promise.js",
+        "node_modules/fsevents/node_modules/har-validator/lib/node7/async.js",
+        "node_modules/fsevents/node_modules/har-validator/lib/node7/error.js",
+        "node_modules/fsevents/node_modules/har-validator/lib/node7/promise.js",
+        "node_modules/fsevents/node_modules/har-validator/src/async.js",
+        "node_modules/fsevents/node_modules/har-validator/src/error.js",
+        "node_modules/fsevents/node_modules/har-validator/src/promise.js",
+        "node_modules/fsevents/node_modules/has-unicode/index.js",
+        "node_modules/fsevents/node_modules/hawk/dist/client.js",
+        "node_modules/fsevents/node_modules/hawk/example/usage.js",
+        "node_modules/fsevents/node_modules/hawk/lib/browser.js",
+        "node_modules/fsevents/node_modules/hawk/lib/client.js",
+        "node_modules/fsevents/node_modules/hawk/lib/crypto.js",
+        "node_modules/fsevents/node_modules/hawk/lib/index.js",
+        "node_modules/fsevents/node_modules/hawk/lib/server.js",
+        "node_modules/fsevents/node_modules/hawk/lib/utils.js",
+        "node_modules/fsevents/node_modules/hoek/lib/escape.js",
+        "node_modules/fsevents/node_modules/hoek/lib/index.js",
+        "node_modules/fsevents/node_modules/http-signature/lib/index.js",
+        "node_modules/fsevents/node_modules/http-signature/lib/parser.js",
+        "node_modules/fsevents/node_modules/http-signature/lib/signer.js",
+        "node_modules/fsevents/node_modules/http-signature/lib/utils.js",
+        "node_modules/fsevents/node_modules/http-signature/lib/verify.js",
+        "node_modules/fsevents/node_modules/inflight/inflight.js",
+        "node_modules/fsevents/node_modules/inherits/inherits.js",
+        "node_modules/fsevents/node_modules/inherits/inherits_browser.js",
+        "node_modules/fsevents/node_modules/ini/ini.js",
+        "node_modules/fsevents/node_modules/is-fullwidth-code-point/index.js",
+        "node_modules/fsevents/node_modules/is-typedarray/index.js",
+        "node_modules/fsevents/node_modules/is-typedarray/test.js",
+        "node_modules/fsevents/node_modules/isarray/index.js",
+        "node_modules/fsevents/node_modules/isarray/test.js",
+        "node_modules/fsevents/node_modules/isstream/isstream.js",
+        "node_modules/fsevents/node_modules/isstream/test.js",
+        "node_modules/fsevents/node_modules/jodid25519/index.js",
+        "node_modules/fsevents/node_modules/jodid25519/lib/core.js",
+        "node_modules/fsevents/node_modules/jodid25519/lib/curve255.js",
+        "node_modules/fsevents/node_modules/jodid25519/lib/dh.js",
+        "node_modules/fsevents/node_modules/jodid25519/lib/eddsa.js",
+        "node_modules/fsevents/node_modules/jodid25519/lib/utils.js",
+        "node_modules/fsevents/node_modules/jsbn/example.js",
+        "node_modules/fsevents/node_modules/jsbn/index.js",
+        "node_modules/fsevents/node_modules/json-schema/lib/links.js",
+        "node_modules/fsevents/node_modules/json-schema/lib/validate.js",
+        "node_modules/fsevents/node_modules/json-stable-stringify/example/key_cmp.js",
+        "node_modules/fsevents/node_modules/json-stable-stringify/example/nested.js",
+        "node_modules/fsevents/node_modules/json-stable-stringify/example/str.js",
+        "node_modules/fsevents/node_modules/json-stable-stringify/example/value_cmp.js",
+        "node_modules/fsevents/node_modules/json-stable-stringify/index.js",
+        "node_modules/fsevents/node_modules/json-stringify-safe/stringify.js",
+        "node_modules/fsevents/node_modules/jsonify/index.js",
+        "node_modules/fsevents/node_modules/jsonify/lib/parse.js",
+        "node_modules/fsevents/node_modules/jsonify/lib/stringify.js",
+        "node_modules/fsevents/node_modules/jsprim/lib/jsprim.js",
+        "node_modules/fsevents/node_modules/jsprim/node_modules/assert-plus/assert.js",
+        "node_modules/fsevents/node_modules/mime-db/index.js",
+        "node_modules/fsevents/node_modules/mime-types/index.js",
+        "node_modules/fsevents/node_modules/minimatch/minimatch.js",
+        "node_modules/fsevents/node_modules/minimist/example/parse.js",
+        "node_modules/fsevents/node_modules/minimist/index.js",
+        "node_modules/fsevents/node_modules/mkdirp/bin/cmd.js",
+        "node_modules/fsevents/node_modules/mkdirp/examples/pow.js",
+        "node_modules/fsevents/node_modules/mkdirp/index.js",
+        "node_modules/fsevents/node_modules/ms/index.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/build.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/clean.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/configure.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/info.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/install.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/node-pre-gyp.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/package.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/pre-binding.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/publish.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/rebuild.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/reinstall.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/reveal.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/testbinary.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/testpackage.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/unpublish.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/util/compile.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/util/handle_gyp_opts.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/util/s3_setup.js",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/util/versioning.js",
+        "node_modules/fsevents/node_modules/nopt/bin/nopt.js",
+        "node_modules/fsevents/node_modules/nopt/examples/my-program.js",
+        "node_modules/fsevents/node_modules/nopt/lib/nopt.js",
+        "node_modules/fsevents/node_modules/npmlog/log.js",
+        "node_modules/fsevents/node_modules/number-is-nan/index.js",
+        "node_modules/fsevents/node_modules/oauth-sign/index.js",
+        "node_modules/fsevents/node_modules/object-assign/index.js",
+        "node_modules/fsevents/node_modules/once/once.js",
+        "node_modules/fsevents/node_modules/os-homedir/index.js",
+        "node_modules/fsevents/node_modules/os-tmpdir/index.js",
+        "node_modules/fsevents/node_modules/osenv/osenv.js",
+        "node_modules/fsevents/node_modules/path-is-absolute/index.js",
+        "node_modules/fsevents/node_modules/performance-now/lib/performance-now.js",
+        "node_modules/fsevents/node_modules/process-nextick-args/index.js",
+        "node_modules/fsevents/node_modules/process-nextick-args/test.js",
+        "node_modules/fsevents/node_modules/punycode/punycode.js",
+        "node_modules/fsevents/node_modules/qs/dist/qs.js",
+        "node_modules/fsevents/node_modules/qs/lib/formats.js",
+        "node_modules/fsevents/node_modules/qs/lib/index.js",
+        "node_modules/fsevents/node_modules/qs/lib/parse.js",
+        "node_modules/fsevents/node_modules/qs/lib/stringify.js",
+        "node_modules/fsevents/node_modules/qs/lib/utils.js",
+        "node_modules/fsevents/node_modules/rc/browser.js",
+        "node_modules/fsevents/node_modules/rc/index.js",
+        "node_modules/fsevents/node_modules/rc/lib/utils.js",
+        "node_modules/fsevents/node_modules/rc/node_modules/minimist/example/parse.js",
+        "node_modules/fsevents/node_modules/rc/node_modules/minimist/index.js",
+        "node_modules/fsevents/node_modules/readable-stream/duplex-browser.js",
+        "node_modules/fsevents/node_modules/readable-stream/duplex.js",
+        "node_modules/fsevents/node_modules/readable-stream/lib/_stream_duplex.js",
+        "node_modules/fsevents/node_modules/readable-stream/lib/_stream_passthrough.js",
+        "node_modules/fsevents/node_modules/readable-stream/lib/_stream_readable.js",
+        "node_modules/fsevents/node_modules/readable-stream/lib/_stream_transform.js",
+        "node_modules/fsevents/node_modules/readable-stream/lib/_stream_writable.js",
+        "node_modules/fsevents/node_modules/readable-stream/lib/internal/streams/BufferList.js",
+        "node_modules/fsevents/node_modules/readable-stream/lib/internal/streams/stream-browser.js",
+        "node_modules/fsevents/node_modules/readable-stream/lib/internal/streams/stream.js",
+        "node_modules/fsevents/node_modules/readable-stream/passthrough.js",
+        "node_modules/fsevents/node_modules/readable-stream/readable-browser.js",
+        "node_modules/fsevents/node_modules/readable-stream/readable.js",
+        "node_modules/fsevents/node_modules/readable-stream/transform.js",
+        "node_modules/fsevents/node_modules/readable-stream/writable-browser.js",
+        "node_modules/fsevents/node_modules/readable-stream/writable.js",
+        "node_modules/fsevents/node_modules/request/index.js",
+        "node_modules/fsevents/node_modules/request/lib/auth.js",
+        "node_modules/fsevents/node_modules/request/lib/cookies.js",
+        "node_modules/fsevents/node_modules/request/lib/getProxyFromURI.js",
+        "node_modules/fsevents/node_modules/request/lib/har.js",
+        "node_modules/fsevents/node_modules/request/lib/helpers.js",
+        "node_modules/fsevents/node_modules/request/lib/multipart.js",
+        "node_modules/fsevents/node_modules/request/lib/oauth.js",
+        "node_modules/fsevents/node_modules/request/lib/querystring.js",
+        "node_modules/fsevents/node_modules/request/lib/redirect.js",
+        "node_modules/fsevents/node_modules/request/lib/tunnel.js",
+        "node_modules/fsevents/node_modules/request/request.js",
+        "node_modules/fsevents/node_modules/rimraf/bin.js",
+        "node_modules/fsevents/node_modules/rimraf/rimraf.js",
+        "node_modules/fsevents/node_modules/safe-buffer/browser.js",
+        "node_modules/fsevents/node_modules/safe-buffer/index.js",
+        "node_modules/fsevents/node_modules/safe-buffer/test.js",
+        "node_modules/fsevents/node_modules/semver/semver.js",
+        "node_modules/fsevents/node_modules/set-blocking/index.js",
+        "node_modules/fsevents/node_modules/signal-exit/index.js",
+        "node_modules/fsevents/node_modules/signal-exit/signals.js",
+        "node_modules/fsevents/node_modules/sntp/examples/offset.js",
+        "node_modules/fsevents/node_modules/sntp/examples/time.js",
+        "node_modules/fsevents/node_modules/sntp/index.js",
+        "node_modules/fsevents/node_modules/sntp/lib/index.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/algs.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/certificate.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/dhe.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/ed-compat.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/errors.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/fingerprint.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/formats/auto.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/formats/openssh-cert.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/formats/pem.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/formats/pkcs1.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/formats/pkcs8.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/formats/rfc4253.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/formats/ssh-private.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/formats/ssh.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/formats/x509-pem.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/formats/x509.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/identity.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/index.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/key.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/private-key.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/signature.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/ssh-buffer.js",
+        "node_modules/fsevents/node_modules/sshpk/lib/utils.js",
+        "node_modules/fsevents/node_modules/sshpk/node_modules/assert-plus/assert.js",
+        "node_modules/fsevents/node_modules/string-width/index.js",
+        "node_modules/fsevents/node_modules/string_decoder/lib/string_decoder.js",
+        "node_modules/fsevents/node_modules/stringstream/example.js",
+        "node_modules/fsevents/node_modules/stringstream/stringstream.js",
+        "node_modules/fsevents/node_modules/strip-ansi/index.js",
+        "node_modules/fsevents/node_modules/strip-json-comments/index.js",
+        "node_modules/fsevents/node_modules/tar/examples/extracter.js",
+        "node_modules/fsevents/node_modules/tar/examples/packer.js",
+        "node_modules/fsevents/node_modules/tar/examples/reader.js",
+        "node_modules/fsevents/node_modules/tar/lib/buffer-entry.js",
+        "node_modules/fsevents/node_modules/tar/lib/entry-writer.js",
+        "node_modules/fsevents/node_modules/tar/lib/entry.js",
+        "node_modules/fsevents/node_modules/tar/lib/extended-header-writer.js",
+        "node_modules/fsevents/node_modules/tar/lib/extended-header.js",
+        "node_modules/fsevents/node_modules/tar/lib/extract.js",
+        "node_modules/fsevents/node_modules/tar/lib/global-header-writer.js",
+        "node_modules/fsevents/node_modules/tar/lib/header.js",
+        "node_modules/fsevents/node_modules/tar/lib/pack.js",
+        "node_modules/fsevents/node_modules/tar/lib/parse.js",
+        "node_modules/fsevents/node_modules/tar/tar.js",
+        "node_modules/fsevents/node_modules/tar-pack/index.js",
+        "node_modules/fsevents/node_modules/tough-cookie/lib/cookie.js",
+        "node_modules/fsevents/node_modules/tough-cookie/lib/memstore.js",
+        "node_modules/fsevents/node_modules/tough-cookie/lib/pathMatch.js",
+        "node_modules/fsevents/node_modules/tough-cookie/lib/permuteDomain.js",
+        "node_modules/fsevents/node_modules/tough-cookie/lib/pubsuffix.js",
+        "node_modules/fsevents/node_modules/tough-cookie/lib/store.js",
+        "node_modules/fsevents/node_modules/tunnel-agent/index.js",
+        "node_modules/fsevents/node_modules/tweetnacl/nacl-fast.js",
+        "node_modules/fsevents/node_modules/tweetnacl/nacl-fast.min.js",
+        "node_modules/fsevents/node_modules/tweetnacl/nacl.js",
+        "node_modules/fsevents/node_modules/tweetnacl/nacl.min.js",
+        "node_modules/fsevents/node_modules/uid-number/get-uid-gid.js",
+        "node_modules/fsevents/node_modules/uid-number/uid-number.js",
+        "node_modules/fsevents/node_modules/util-deprecate/browser.js",
+        "node_modules/fsevents/node_modules/util-deprecate/node.js",
+        "node_modules/fsevents/node_modules/uuid/index.js",
+        "node_modules/fsevents/node_modules/uuid/lib/bytesToUuid.js",
+        "node_modules/fsevents/node_modules/uuid/lib/rng-browser.js",
+        "node_modules/fsevents/node_modules/uuid/lib/rng.js",
+        "node_modules/fsevents/node_modules/uuid/v1.js",
+        "node_modules/fsevents/node_modules/uuid/v4.js",
+        "node_modules/fsevents/node_modules/verror/examples/levels-verror.js",
+        "node_modules/fsevents/node_modules/verror/examples/levels-werror.js",
+        "node_modules/fsevents/node_modules/verror/examples/varargs.js",
+        "node_modules/fsevents/node_modules/verror/examples/verror.js",
+        "node_modules/fsevents/node_modules/verror/examples/werror.js",
+        "node_modules/fsevents/node_modules/verror/lib/verror.js",
+        "node_modules/fsevents/node_modules/wide-align/align.js",
+        "node_modules/fsevents/node_modules/wrappy/wrappy.js",
+        "node_modules/glob-base/index.js",
+        "node_modules/glob-parent/index.js",
+        "node_modules/glob-parent/test.js",
+        "node_modules/graceful-fs/fs.js",
+        "node_modules/graceful-fs/graceful-fs.js",
+        "node_modules/graceful-fs/legacy-streams.js",
+        "node_modules/graceful-fs/polyfills.js",
+        "node_modules/http-auth/src/auth/base.js",
+        "node_modules/http-auth/src/auth/basic.js",
+        "node_modules/http-auth/src/auth/digest.js",
+        "node_modules/http-auth/src/auth/utils.js",
+        "node_modules/http-auth/src/http-auth.js",
+        "node_modules/http-auth/src/server/connect.js",
+        "node_modules/http-auth/src/server/hapi.js",
+        "node_modules/http-auth/src/server/http.js",
+        "node_modules/http-auth/src/server/https.js",
+        "node_modules/http-auth/src/server/koa.js",
+        "node_modules/http-auth/src/server/passport.js",
+        "node_modules/http-auth/src/server/proxy.js",
+        "node_modules/http-errors/index.js",
+        "node_modules/http-parser-js/http-parser.js",
+        "node_modules/inherits/inherits.js",
+        "node_modules/inherits/inherits_browser.js",
+        "node_modules/is-binary-path/index.js",
+        "node_modules/is-buffer/index.js",
+        "node_modules/is-dotfile/index.js",
+        "node_modules/is-equal-shallow/index.js",
+        "node_modules/is-extendable/index.js",
+        "node_modules/is-extglob/index.js",
+        "node_modules/is-glob/index.js",
+        "node_modules/is-number/index.js",
+        "node_modules/is-posix-bracket/index.js",
+        "node_modules/is-primitive/index.js",
+        "node_modules/is-wsl/index.js",
+        "node_modules/isarray/index.js",
+        "node_modules/isarray/test.js",
+        "node_modules/isobject/index.js",
+        "node_modules/json5/lib/cli.js",
+        "node_modules/json5/lib/json5.js",
+        "node_modules/json5/lib/require.js",
+        "node_modules/kind-of/index.js",
+        "node_modules/live-server/index.js",
+        "node_modules/live-server/live-server.js",
+        "node_modules/live-server/middleware/example.js",
+        "node_modules/live-server/middleware/spa-ignore-assets.js",
+        "node_modules/live-server/middleware/spa.js",
+        "node_modules/map-stream/examples/pretty.js",
+        "node_modules/map-stream/index.js",
+        "node_modules/micromatch/index.js",
+        "node_modules/micromatch/lib/chars.js",
+        "node_modules/micromatch/lib/expand.js",
+        "node_modules/micromatch/lib/glob.js",
+        "node_modules/micromatch/lib/utils.js",
+        "node_modules/mime/build/build.js",
+        "node_modules/mime/build/test.js",
+        "node_modules/mime/cli.js",
+        "node_modules/mime/mime.js",
+        "node_modules/mime-db/index.js",
+        "node_modules/mime-types/index.js",
+        "node_modules/minimatch/minimatch.js",
+        "node_modules/morgan/index.js",
+        "node_modules/morgan/node_modules/debug/karma.conf.js",
+        "node_modules/morgan/node_modules/debug/node.js",
+        "node_modules/morgan/node_modules/debug/src/browser.js",
+        "node_modules/morgan/node_modules/debug/src/debug.js",
+        "node_modules/morgan/node_modules/debug/src/index.js",
+        "node_modules/morgan/node_modules/debug/src/node.js",
+        "node_modules/morgan/node_modules/ms/index.js",
+        "node_modules/ms/index.js",
+        "node_modules/nan/include_dirs.js",
+        "node_modules/nan/tools/1to2.js",
+        "node_modules/negotiator/index.js",
+        "node_modules/negotiator/lib/charset.js",
+        "node_modules/negotiator/lib/encoding.js",
+        "node_modules/negotiator/lib/language.js",
+        "node_modules/negotiator/lib/mediaType.js",
+        "node_modules/normalize-path/index.js",
+        "node_modules/object-assign/index.js",
+        "node_modules/object.omit/index.js",
+        "node_modules/on-finished/index.js",
+        "node_modules/on-headers/index.js",
+        "node_modules/opn/index.js",
+        "node_modules/parse-glob/index.js",
+        "node_modules/parseurl/index.js",
+        "node_modules/path-is-absolute/index.js",
+        "node_modules/pause-stream/index.js",
+        "node_modules/preserve/index.js",
+        "node_modules/preserve/test.js",
+        "node_modules/process-nextick-args/index.js",
+        "node_modules/process-nextick-args/test.js",
+        "node_modules/proxy-middleware/index.js",
+        "node_modules/randomatic/index.js",
+        "node_modules/randomatic/node_modules/is-number/index.js",
+        "node_modules/randomatic/node_modules/is-number/node_modules/kind-of/index.js",
+        "node_modules/randomatic/node_modules/kind-of/index.js",
+        "node_modules/range-parser/index.js",
+        "node_modules/readable-stream/duplex-browser.js",
+        "node_modules/readable-stream/duplex.js",
+        "node_modules/readable-stream/lib/_stream_duplex.js",
+        "node_modules/readable-stream/lib/_stream_passthrough.js",
+        "node_modules/readable-stream/lib/_stream_readable.js",
+        "node_modules/readable-stream/lib/_stream_transform.js",
+        "node_modules/readable-stream/lib/_stream_writable.js",
+        "node_modules/readable-stream/lib/internal/streams/BufferList.js",
+        "node_modules/readable-stream/lib/internal/streams/destroy.js",
+        "node_modules/readable-stream/lib/internal/streams/stream-browser.js",
+        "node_modules/readable-stream/lib/internal/streams/stream.js",
+        "node_modules/readable-stream/passthrough.js",
+        "node_modules/readable-stream/readable-browser.js",
+        "node_modules/readable-stream/readable.js",
+        "node_modules/readable-stream/transform.js",
+        "node_modules/readable-stream/writable-browser.js",
+        "node_modules/readable-stream/writable.js",
+        "node_modules/readdirp/examples/callback-api.js",
+        "node_modules/readdirp/examples/grep.js",
+        "node_modules/readdirp/examples/stream-api-pipe.js",
+        "node_modules/readdirp/examples/stream-api.js",
+        "node_modules/readdirp/readdirp.js",
+        "node_modules/readdirp/stream-api.js",
+        "node_modules/regex-cache/index.js",
+        "node_modules/remove-trailing-separator/index.js",
+        "node_modules/repeat-element/index.js",
+        "node_modules/repeat-string/index.js",
+        "node_modules/safe-buffer/index.js",
+        "node_modules/safe-buffer/test.js",
+        "node_modules/send/index.js",
+        "node_modules/send/node_modules/debug/karma.conf.js",
+        "node_modules/send/node_modules/debug/node.js",
+        "node_modules/send/node_modules/debug/src/browser.js",
+        "node_modules/send/node_modules/debug/src/debug.js",
+        "node_modules/send/node_modules/debug/src/index.js",
+        "node_modules/send/node_modules/debug/src/node.js",
+        "node_modules/send/node_modules/ms/index.js",
+        "node_modules/serve-index/index.js",
+        "node_modules/serve-index/node_modules/debug/karma.conf.js",
+        "node_modules/serve-index/node_modules/debug/node.js",
+        "node_modules/serve-index/node_modules/debug/src/browser.js",
+        "node_modules/serve-index/node_modules/debug/src/debug.js",
+        "node_modules/serve-index/node_modules/debug/src/index.js",
+        "node_modules/serve-index/node_modules/debug/src/node.js",
+        "node_modules/serve-index/node_modules/ms/index.js",
+        "node_modules/set-immediate-shim/index.js",
+        "node_modules/setprototypeof/index.js",
+        "node_modules/split/examples/pretty.js",
+        "node_modules/split/index.js",
+        "node_modules/statuses/index.js",
+        "node_modules/stream-combiner/index.js",
+        "node_modules/string_decoder/lib/string_decoder.js",
+        "node_modules/through/index.js",
+        "node_modules/unix-crypt-td-js/dist/unix-crypt-td.min.js",
+        "node_modules/unix-crypt-td-js/src/unix-crypt-td.js",
+        "node_modules/unpipe/index.js",
+        "node_modules/util-deprecate/browser.js",
+        "node_modules/util-deprecate/node.js",
+        "node_modules/utils-merge/index.js",
+        "node_modules/uuid/index.js",
+        "node_modules/uuid/lib/bytesToUuid.js",
+        "node_modules/uuid/lib/rng-browser.js",
+        "node_modules/uuid/lib/rng.js",
+        "node_modules/uuid/lib/sha1-browser.js",
+        "node_modules/uuid/lib/sha1.js",
+        "node_modules/uuid/v1.js",
+        "node_modules/uuid/v4.js",
+        "node_modules/uuid/v5.js",
+        "node_modules/vary/index.js",
+        "node_modules/websocket-driver/lib/websocket/driver/base.js",
+        "node_modules/websocket-driver/lib/websocket/driver/client.js",
+        "node_modules/websocket-driver/lib/websocket/driver/draft75.js",
+        "node_modules/websocket-driver/lib/websocket/driver/draft76.js",
+        "node_modules/websocket-driver/lib/websocket/driver/headers.js",
+        "node_modules/websocket-driver/lib/websocket/driver/hybi/frame.js",
+        "node_modules/websocket-driver/lib/websocket/driver/hybi/message.js",
+        "node_modules/websocket-driver/lib/websocket/driver/hybi.js",
+        "node_modules/websocket-driver/lib/websocket/driver/proxy.js",
+        "node_modules/websocket-driver/lib/websocket/driver/server.js",
+        "node_modules/websocket-driver/lib/websocket/driver/stream_reader.js",
+        "node_modules/websocket-driver/lib/websocket/driver.js",
+        "node_modules/websocket-driver/lib/websocket/http_parser.js",
+        "node_modules/websocket-driver/lib/websocket/streams.js",
+        "node_modules/websocket-extensions/lib/parser.js",
+        "node_modules/websocket-extensions/lib/pipeline/cell.js",
+        "node_modules/websocket-extensions/lib/pipeline/functor.js",
+        "node_modules/websocket-extensions/lib/pipeline/index.js",
+        "node_modules/websocket-extensions/lib/pipeline/pledge.js",
+        "node_modules/websocket-extensions/lib/pipeline/ring_buffer.js",
+        "node_modules/websocket-extensions/lib/websocket_extensions.js"
+      ],
+      ".json": [
+        "node_modules/accepts/package.json",
+        "node_modules/anymatch/package.json",
+        "node_modules/apache-crypt/package.json",
+        "node_modules/apache-md5/package.json",
+        "node_modules/arr-diff/package.json",
+        "node_modules/arr-flatten/package.json",
+        "node_modules/array-unique/package.json",
+        "node_modules/async-each/package.json",
+        "node_modules/balanced-match/package.json",
+        "node_modules/basic-auth/package.json",
+        "node_modules/batch/component.json",
+        "node_modules/batch/package.json",
+        "node_modules/bcryptjs/.vscode/settings.json",
+        "node_modules/bcryptjs/bower.json",
+        "node_modules/bcryptjs/package.json",
+        "node_modules/bcryptjs/src/bower.json",
+        "node_modules/binary-extensions/binary-extensions.json",
+        "node_modules/binary-extensions/package.json",
+        "node_modules/brace-expansion/package.json",
+        "node_modules/braces/package.json",
+        "node_modules/chokidar/package.json",
+        "node_modules/colors/package.json",
+        "node_modules/concat-map/package.json",
+        "node_modules/connect/package.json",
+        "node_modules/core-util-is/package.json",
+        "node_modules/cors/package.json",
+        "node_modules/debug/bower.json",
+        "node_modules/debug/component.json",
+        "node_modules/debug/package.json",
+        "node_modules/depd/package.json",
+        "node_modules/destroy/package.json",
+        "node_modules/duplexer/package.json",
+        "node_modules/ee-first/package.json",
+        "node_modules/encodeurl/package.json",
+        "node_modules/escape-html/package.json",
+        "node_modules/etag/package.json",
+        "node_modules/event-stream/package.json",
+        "node_modules/expand-brackets/package.json",
+        "node_modules/expand-range/package.json",
+        "node_modules/extglob/package.json",
+        "node_modules/faye-websocket/package.json",
+        "node_modules/filename-regex/package.json",
+        "node_modules/fill-range/package.json",
+        "node_modules/finalhandler/package.json",
+        "node_modules/for-in/package.json",
+        "node_modules/for-own/package.json",
+        "node_modules/fresh/package.json",
+        "node_modules/from/package.json",
+        "node_modules/fsevents/node_modules/abbrev/package.json",
+        "node_modules/fsevents/node_modules/ajv/lib/refs/json-schema-draft-04.json",
+        "node_modules/fsevents/node_modules/ajv/lib/refs/json-schema-v5.json",
+        "node_modules/fsevents/node_modules/ajv/package.json",
+        "node_modules/fsevents/node_modules/ansi-regex/package.json",
+        "node_modules/fsevents/node_modules/aproba/package.json",
+        "node_modules/fsevents/node_modules/are-we-there-yet/package.json",
+        "node_modules/fsevents/node_modules/asn1/package.json",
+        "node_modules/fsevents/node_modules/assert-plus/package.json",
+        "node_modules/fsevents/node_modules/asynckit/package.json",
+        "node_modules/fsevents/node_modules/aws-sign2/package.json",
+        "node_modules/fsevents/node_modules/aws4/package.json",
+        "node_modules/fsevents/node_modules/balanced-match/package.json",
+        "node_modules/fsevents/node_modules/bcrypt-pbkdf/package.json",
+        "node_modules/fsevents/node_modules/block-stream/package.json",
+        "node_modules/fsevents/node_modules/boom/package.json",
+        "node_modules/fsevents/node_modules/brace-expansion/package.json",
+        "node_modules/fsevents/node_modules/buffer-shims/package.json",
+        "node_modules/fsevents/node_modules/caseless/package.json",
+        "node_modules/fsevents/node_modules/co/package.json",
+        "node_modules/fsevents/node_modules/code-point-at/package.json",
+        "node_modules/fsevents/node_modules/combined-stream/package.json",
+        "node_modules/fsevents/node_modules/concat-map/package.json",
+        "node_modules/fsevents/node_modules/console-control-strings/package.json",
+        "node_modules/fsevents/node_modules/core-util-is/package.json",
+        "node_modules/fsevents/node_modules/cryptiles/package.json",
+        "node_modules/fsevents/node_modules/dashdash/node_modules/assert-plus/package.json",
+        "node_modules/fsevents/node_modules/dashdash/package.json",
+        "node_modules/fsevents/node_modules/debug/component.json",
+        "node_modules/fsevents/node_modules/debug/package.json",
+        "node_modules/fsevents/node_modules/deep-extend/package.json",
+        "node_modules/fsevents/node_modules/delayed-stream/package.json",
+        "node_modules/fsevents/node_modules/delegates/package.json",
+        "node_modules/fsevents/node_modules/ecc-jsbn/package.json",
+        "node_modules/fsevents/node_modules/extend/.jscs.json",
+        "node_modules/fsevents/node_modules/extend/component.json",
+        "node_modules/fsevents/node_modules/extend/package.json",
+        "node_modules/fsevents/node_modules/extsprintf/package.json",
+        "node_modules/fsevents/node_modules/forever-agent/package.json",
+        "node_modules/fsevents/node_modules/form-data/package.json",
+        "node_modules/fsevents/node_modules/fs.realpath/package.json",
+        "node_modules/fsevents/node_modules/fstream/package.json",
+        "node_modules/fsevents/node_modules/fstream-ignore/package.json",
+        "node_modules/fsevents/node_modules/gauge/package.json",
+        "node_modules/fsevents/node_modules/getpass/node_modules/assert-plus/package.json",
+        "node_modules/fsevents/node_modules/getpass/package.json",
+        "node_modules/fsevents/node_modules/glob/package.json",
+        "node_modules/fsevents/node_modules/graceful-fs/package.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/afterRequest.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/beforeRequest.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/browser.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/cache.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/content.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/cookie.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/creator.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/entry.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/har.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/header.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/log.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/page.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/pageTimings.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/postData.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/query.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/request.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/response.json",
+        "node_modules/fsevents/node_modules/har-schema/lib/timings.json",
+        "node_modules/fsevents/node_modules/har-schema/package.json",
+        "node_modules/fsevents/node_modules/har-validator/package.json",
+        "node_modules/fsevents/node_modules/has-unicode/package.json",
+        "node_modules/fsevents/node_modules/hawk/bower.json",
+        "node_modules/fsevents/node_modules/hawk/component.json",
+        "node_modules/fsevents/node_modules/hawk/package.json",
+        "node_modules/fsevents/node_modules/hoek/package.json",
+        "node_modules/fsevents/node_modules/http-signature/package.json",
+        "node_modules/fsevents/node_modules/inflight/package.json",
+        "node_modules/fsevents/node_modules/inherits/package.json",
+        "node_modules/fsevents/node_modules/ini/package.json",
+        "node_modules/fsevents/node_modules/is-fullwidth-code-point/package.json",
+        "node_modules/fsevents/node_modules/is-typedarray/package.json",
+        "node_modules/fsevents/node_modules/isarray/component.json",
+        "node_modules/fsevents/node_modules/isarray/package.json",
+        "node_modules/fsevents/node_modules/isstream/package.json",
+        "node_modules/fsevents/node_modules/jodid25519/jsdoc.json",
+        "node_modules/fsevents/node_modules/jodid25519/package.json",
+        "node_modules/fsevents/node_modules/jsbn/package.json",
+        "node_modules/fsevents/node_modules/json-schema/package.json",
+        "node_modules/fsevents/node_modules/json-stable-stringify/package.json",
+        "node_modules/fsevents/node_modules/json-stringify-safe/package.json",
+        "node_modules/fsevents/node_modules/jsonify/package.json",
+        "node_modules/fsevents/node_modules/jsprim/node_modules/assert-plus/package.json",
+        "node_modules/fsevents/node_modules/jsprim/package.json",
+        "node_modules/fsevents/node_modules/mime-db/db.json",
+        "node_modules/fsevents/node_modules/mime-db/package.json",
+        "node_modules/fsevents/node_modules/mime-types/package.json",
+        "node_modules/fsevents/node_modules/minimatch/package.json",
+        "node_modules/fsevents/node_modules/minimist/package.json",
+        "node_modules/fsevents/node_modules/mkdirp/package.json",
+        "node_modules/fsevents/node_modules/ms/package.json",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/util/abi_crosswalk.json",
+        "node_modules/fsevents/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/package.json",
+        "node_modules/fsevents/node_modules/node-pre-gyp/package.json",
+        "node_modules/fsevents/node_modules/nopt/package.json",
+        "node_modules/fsevents/node_modules/npmlog/package.json",
+        "node_modules/fsevents/node_modules/number-is-nan/package.json",
+        "node_modules/fsevents/node_modules/oauth-sign/package.json",
+        "node_modules/fsevents/node_modules/object-assign/package.json",
+        "node_modules/fsevents/node_modules/once/package.json",
+        "node_modules/fsevents/node_modules/os-homedir/package.json",
+        "node_modules/fsevents/node_modules/os-tmpdir/package.json",
+        "node_modules/fsevents/node_modules/osenv/package.json",
+        "node_modules/fsevents/node_modules/path-is-absolute/package.json",
+        "node_modules/fsevents/node_modules/performance-now/package.json",
+        "node_modules/fsevents/node_modules/process-nextick-args/package.json",
+        "node_modules/fsevents/node_modules/punycode/package.json",
+        "node_modules/fsevents/node_modules/qs/.jscs.json",
+        "node_modules/fsevents/node_modules/qs/package.json",
+        "node_modules/fsevents/node_modules/rc/node_modules/minimist/package.json",
+        "node_modules/fsevents/node_modules/rc/package.json",
+        "node_modules/fsevents/node_modules/readable-stream/package.json",
+        "node_modules/fsevents/node_modules/request/package.json",
+        "node_modules/fsevents/node_modules/rimraf/package.json",
+        "node_modules/fsevents/node_modules/safe-buffer/package.json",
+        "node_modules/fsevents/node_modules/semver/package.json",
+        "node_modules/fsevents/node_modules/set-blocking/package.json",
+        "node_modules/fsevents/node_modules/signal-exit/package.json",
+        "node_modules/fsevents/node_modules/sntp/package.json",
+        "node_modules/fsevents/node_modules/sshpk/node_modules/assert-plus/package.json",
+        "node_modules/fsevents/node_modules/sshpk/package.json",
+        "node_modules/fsevents/node_modules/string-width/package.json",
+        "node_modules/fsevents/node_modules/string_decoder/package.json",
+        "node_modules/fsevents/node_modules/stringstream/package.json",
+        "node_modules/fsevents/node_modules/strip-ansi/package.json",
+        "node_modules/fsevents/node_modules/strip-json-comments/package.json",
+        "node_modules/fsevents/node_modules/tar/package.json",
+        "node_modules/fsevents/node_modules/tar-pack/package.json",
+        "node_modules/fsevents/node_modules/tough-cookie/package.json",
+        "node_modules/fsevents/node_modules/tunnel-agent/package.json",
+        "node_modules/fsevents/node_modules/tweetnacl/package.json",
+        "node_modules/fsevents/node_modules/uid-number/package.json",
+        "node_modules/fsevents/node_modules/util-deprecate/package.json",
+        "node_modules/fsevents/node_modules/uuid/package.json",
+        "node_modules/fsevents/node_modules/verror/package.json",
+        "node_modules/fsevents/node_modules/wide-align/package.json",
+        "node_modules/fsevents/node_modules/wrappy/package.json",
+        "node_modules/fsevents/package.json",
+        "node_modules/glob-base/package.json",
+        "node_modules/glob-parent/package.json",
+        "node_modules/graceful-fs/package.json",
+        "node_modules/http-auth/package.json",
+        "node_modules/http-errors/package.json",
+        "node_modules/http-parser-js/package.json",
+        "node_modules/inherits/package.json",
+        "node_modules/is-binary-path/package.json",
+        "node_modules/is-buffer/package.json",
+        "node_modules/is-dotfile/package.json",
+        "node_modules/is-equal-shallow/package.json",
+        "node_modules/is-extendable/package.json",
+        "node_modules/is-extglob/package.json",
+        "node_modules/is-glob/package.json",
+        "node_modules/is-number/package.json",
+        "node_modules/is-posix-bracket/package.json",
+        "node_modules/is-primitive/package.json",
+        "node_modules/is-wsl/package.json",
+        "node_modules/isarray/component.json",
+        "node_modules/isarray/package.json",
+        "node_modules/isobject/package.json",
+        "node_modules/json5/package.json",
+        "node_modules/kind-of/package.json",
+        "node_modules/live-server/package.json",
+        "node_modules/map-stream/package.json",
+        "node_modules/micromatch/package.json",
+        "node_modules/mime/package.json",
+        "node_modules/mime/types.json",
+        "node_modules/mime-db/db.json",
+        "node_modules/mime-db/package.json",
+        "node_modules/mime-types/package.json",
+        "node_modules/minimatch/package.json",
+        "node_modules/morgan/node_modules/debug/component.json",
+        "node_modules/morgan/node_modules/debug/package.json",
+        "node_modules/morgan/node_modules/ms/package.json",
+        "node_modules/morgan/package.json",
+        "node_modules/ms/package.json",
+        "node_modules/nan/package.json",
+        "node_modules/nan/tools/package.json",
+        "node_modules/negotiator/package.json",
+        "node_modules/normalize-path/package.json",
+        "node_modules/object-assign/package.json",
+        "node_modules/object.omit/package.json",
+        "node_modules/on-finished/package.json",
+        "node_modules/on-headers/package.json",
+        "node_modules/opn/package.json",
+        "node_modules/parse-glob/package.json",
+        "node_modules/parseurl/package.json",
+        "node_modules/path-is-absolute/package.json",
+        "node_modules/pause-stream/package.json",
+        "node_modules/preserve/package.json",
+        "node_modules/process-nextick-args/package.json",
+        "node_modules/proxy-middleware/package.json",
+        "node_modules/randomatic/node_modules/is-number/node_modules/kind-of/package.json",
+        "node_modules/randomatic/node_modules/is-number/package.json",
+        "node_modules/randomatic/node_modules/kind-of/package.json",
+        "node_modules/randomatic/package.json",
+        "node_modules/range-parser/package.json",
+        "node_modules/readable-stream/package.json",
+        "node_modules/readdirp/examples/package.json",
+        "node_modules/readdirp/package.json",
+        "node_modules/regex-cache/package.json",
+        "node_modules/remove-trailing-separator/package.json",
+        "node_modules/repeat-element/package.json",
+        "node_modules/repeat-string/package.json",
+        "node_modules/safe-buffer/package.json",
+        "node_modules/send/node_modules/debug/component.json",
+        "node_modules/send/node_modules/debug/package.json",
+        "node_modules/send/node_modules/ms/package.json",
+        "node_modules/send/package.json",
+        "node_modules/serve-index/node_modules/debug/component.json",
+        "node_modules/serve-index/node_modules/debug/package.json",
+        "node_modules/serve-index/node_modules/ms/package.json",
+        "node_modules/serve-index/package.json",
+        "node_modules/set-immediate-shim/package.json",
+        "node_modules/setprototypeof/package.json",
+        "node_modules/split/package.json",
+        "node_modules/statuses/codes.json",
+        "node_modules/statuses/package.json",
+        "node_modules/stream-combiner/package.json",
+        "node_modules/string_decoder/package.json",
+        "node_modules/through/package.json",
+        "node_modules/unix-crypt-td-js/package.json",
+        "node_modules/unpipe/package.json",
+        "node_modules/util-deprecate/package.json",
+        "node_modules/utils-merge/package.json",
+        "node_modules/uuid/.eslintrc.json",
+        "node_modules/uuid/package.json",
+        "node_modules/vary/package.json",
+        "node_modules/websocket-driver/package.json",
+        "node_modules/websocket-extensions/package.json",
+        "package.json"
+      ],
+      ".node": [
+        "node_modules/fsevents/build/Release/fse.node",
+        "node_modules/fsevents/lib/binding/Release/electron-v1.6-darwin-x64/fse.node",
+        "node_modules/fsevents/lib/binding/Release/node-v11-darwin-x64/fse.node",
+        "node_modules/fsevents/lib/binding/Release/node-v46-darwin-x64/fse.node",
+        "node_modules/fsevents/lib/binding/Release/node-v47-darwin-x64/fse.node",
+        "node_modules/fsevents/lib/binding/Release/node-v48-darwin-x64/fse.node",
+        "node_modules/fsevents/lib/binding/Release/node-v57-darwin-x64/fse.node"
+      ],
+      ".coffee": [
+        "node_modules/fsevents/node_modules/performance-now/src/performance-now.coffee"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "keymaps",
+          "lib",
+          "menus",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "json5": "^0.5.1",
+          "live-server": "^1.2.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/accepts"
+        ],
+        "dependencies": {
+          "mime-types": "~2.1.16",
+          "negotiator": "0.6.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/anymatch"
+        ],
+        "dependencies": {
+          "micromatch": "^2.1.5",
+          "normalize-path": "^2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/apache-crypt",
+          "node_modules/apache-crypt/src"
+        ],
+        "dependencies": {
+          "unix-crypt-td-js": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/arr-diff"
+        ],
+        "dependencies": {
+          "arr-flatten": "^1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/brace-expansion"
+        ],
+        "dependencies": {
+          "balanced-match": "^1.0.0",
+          "concat-map": "0.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/braces"
+        ],
+        "dependencies": {
+          "expand-range": "^1.8.1",
+          "preserve": "^0.2.0",
+          "repeat-element": "^1.1.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/chokidar",
+          "node_modules/chokidar/lib"
+        ],
+        "dependencies": {
+          "anymatch": "^1.3.0",
+          "async-each": "^1.0.0",
+          "fsevents": "^1.0.0",
+          "glob-parent": "^2.0.0",
+          "inherits": "^2.0.1",
+          "is-binary-path": "^1.0.0",
+          "is-glob": "^2.0.0",
+          "path-is-absolute": "^1.0.0",
+          "readdirp": "^2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/connect"
+        ],
+        "dependencies": {
+          "debug": "~2.2.0",
+          "finalhandler": "0.5.1",
+          "parseurl": "~1.3.1",
+          "utils-merge": "1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/cors/lib",
+          "node_modules/cors",
+          "node_modules/cors/test",
+          "node_modules/cors/test/support"
+        ],
+        "dependencies": {
+          "object-assign": "^4",
+          "vary": "^1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/debug"
+        ],
+        "dependencies": {
+          "ms": "0.7.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/event-stream/examples",
+          "node_modules/event-stream",
+          "node_modules/event-stream/test",
+          "node_modules/event-stream/test/helper"
+        ],
+        "dependencies": {
+          "duplexer": "~0.1.1",
+          "from": "~0",
+          "map-stream": "~0.1.0",
+          "pause-stream": "0.0.11",
+          "split": "0.3",
+          "stream-combiner": "~0.0.4",
+          "through": "~2.3.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/expand-brackets"
+        ],
+        "dependencies": {
+          "is-posix-bracket": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/expand-range"
+        ],
+        "dependencies": {
+          "fill-range": "^2.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/extglob"
+        ],
+        "dependencies": {
+          "is-extglob": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/faye-websocket/examples",
+          "node_modules/faye-websocket/lib/faye",
+          "node_modules/faye-websocket/lib/faye/websocket/api",
+          "node_modules/faye-websocket/lib/faye/websocket",
+          "node_modules/faye-websocket"
+        ],
+        "dependencies": {
+          "websocket-driver": ">=0.5.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fill-range"
+        ],
+        "dependencies": {
+          "is-number": "^2.1.0",
+          "isobject": "^2.0.0",
+          "randomatic": "^1.1.3",
+          "repeat-element": "^1.1.2",
+          "repeat-string": "^1.5.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/finalhandler"
+        ],
+        "dependencies": {
+          "debug": "~2.2.0",
+          "escape-html": "~1.0.3",
+          "on-finished": "~2.3.0",
+          "statuses": "~1.3.1",
+          "unpipe": "~1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/for-own"
+        ],
+        "dependencies": {
+          "for-in": "^1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/build/Release",
+          "node_modules/fsevents",
+          "node_modules/fsevents/lib/binding/Release/electron-v1.6-darwin-x64",
+          "node_modules/fsevents/lib/binding/Release/node-v11-darwin-x64",
+          "node_modules/fsevents/lib/binding/Release/node-v46-darwin-x64",
+          "node_modules/fsevents/lib/binding/Release/node-v47-darwin-x64",
+          "node_modules/fsevents/lib/binding/Release/node-v48-darwin-x64",
+          "node_modules/fsevents/lib/binding/Release/node-v57-darwin-x64"
+        ],
+        "dependencies": {
+          "nan": "^2.3.0",
+          "node-pre-gyp": "^0.6.36"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/ajv",
+          "node_modules/fsevents/node_modules/ajv/dist",
+          "node_modules/fsevents/node_modules/ajv/lib",
+          "node_modules/fsevents/node_modules/ajv/lib/compile",
+          "node_modules/fsevents/node_modules/ajv/lib/dotjs",
+          "node_modules/fsevents/node_modules/ajv/lib/refs",
+          "node_modules/fsevents/node_modules/ajv/scripts"
+        ],
+        "dependencies": {
+          "co": "^4.6.0",
+          "json-stable-stringify": "^1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/are-we-there-yet"
+        ],
+        "dependencies": {
+          "delegates": "^1.0.0",
+          "readable-stream": "^2.0.6"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/bcrypt-pbkdf"
+        ],
+        "dependencies": {
+          "tweetnacl": "^0.14.3"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/block-stream"
+        ],
+        "dependencies": {
+          "inherits": "~2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/boom/lib",
+          "node_modules/fsevents/node_modules/boom",
+          "node_modules/fsevents/node_modules/boom/test"
+        ],
+        "dependencies": {
+          "hoek": "2.x.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/brace-expansion"
+        ],
+        "dependencies": {
+          "balanced-match": "^0.4.1",
+          "concat-map": "0.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/combined-stream/lib",
+          "node_modules/fsevents/node_modules/combined-stream"
+        ],
+        "dependencies": {
+          "delayed-stream": "~1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/cryptiles/lib",
+          "node_modules/fsevents/node_modules/cryptiles",
+          "node_modules/fsevents/node_modules/cryptiles/test"
+        ],
+        "dependencies": {
+          "boom": "2.x.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/dashdash/lib",
+          "node_modules/fsevents/node_modules/dashdash"
+        ],
+        "dependencies": {
+          "assert-plus": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/debug",
+          "node_modules/fsevents/node_modules/debug/src"
+        ],
+        "dependencies": {
+          "ms": "2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/ecc-jsbn",
+          "node_modules/fsevents/node_modules/ecc-jsbn/lib"
+        ],
+        "dependencies": {
+          "jsbn": "~0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/form-data/lib",
+          "node_modules/fsevents/node_modules/form-data"
+        ],
+        "dependencies": {
+          "asynckit": "^0.4.0",
+          "combined-stream": "^1.0.5",
+          "mime-types": "^2.1.12"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/fstream/examples",
+          "node_modules/fsevents/node_modules/fstream",
+          "node_modules/fsevents/node_modules/fstream/lib"
+        ],
+        "dependencies": {
+          "graceful-fs": "^4.1.2",
+          "inherits": "~2.0.0",
+          "mkdirp": ">=0.5 0",
+          "rimraf": "2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/fstream-ignore"
+        ],
+        "dependencies": {
+          "fstream": "^1.0.0",
+          "inherits": "2",
+          "minimatch": "^3.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/gauge"
+        ],
+        "dependencies": {
+          "aproba": "^1.0.3",
+          "console-control-strings": "^1.0.0",
+          "has-unicode": "^2.0.0",
+          "object-assign": "^4.1.0",
+          "signal-exit": "^3.0.0",
+          "string-width": "^1.0.1",
+          "strip-ansi": "^3.0.1",
+          "wide-align": "^1.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/getpass/lib",
+          "node_modules/fsevents/node_modules/getpass"
+        ],
+        "dependencies": {
+          "assert-plus": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/glob"
+        ],
+        "dependencies": {
+          "fs.realpath": "^1.0.0",
+          "inflight": "^1.0.4",
+          "inherits": "2",
+          "minimatch": "^3.0.4",
+          "once": "^1.3.0",
+          "path-is-absolute": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/har-validator/lib/browser",
+          "node_modules/fsevents/node_modules/har-validator/lib/node4",
+          "node_modules/fsevents/node_modules/har-validator/lib/node6",
+          "node_modules/fsevents/node_modules/har-validator/lib/node7",
+          "node_modules/fsevents/node_modules/har-validator",
+          "node_modules/fsevents/node_modules/har-validator/src"
+        ],
+        "dependencies": {
+          "ajv": "^4.9.1",
+          "har-schema": "^1.0.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/hawk",
+          "node_modules/fsevents/node_modules/hawk/dist",
+          "node_modules/fsevents/node_modules/hawk/example",
+          "node_modules/fsevents/node_modules/hawk/lib",
+          "node_modules/fsevents/node_modules/hawk/test"
+        ],
+        "dependencies": {
+          "boom": "2.x.x",
+          "cryptiles": "2.x.x",
+          "hoek": "2.x.x",
+          "sntp": "1.x.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/http-signature/lib",
+          "node_modules/fsevents/node_modules/http-signature"
+        ],
+        "dependencies": {
+          "assert-plus": "^0.2.0",
+          "jsprim": "^1.2.2",
+          "sshpk": "^1.7.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/inflight"
+        ],
+        "dependencies": {
+          "once": "^1.3.0",
+          "wrappy": "1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/is-fullwidth-code-point"
+        ],
+        "dependencies": {
+          "number-is-nan": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/jodid25519",
+          "node_modules/fsevents/node_modules/jodid25519/lib"
+        ],
+        "dependencies": {
+          "jsbn": "~0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/json-stable-stringify/example",
+          "node_modules/fsevents/node_modules/json-stable-stringify",
+          "node_modules/fsevents/node_modules/json-stable-stringify/test"
+        ],
+        "dependencies": {
+          "jsonify": "~0.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/jsprim/lib",
+          "node_modules/fsevents/node_modules/jsprim"
+        ],
+        "dependencies": {
+          "assert-plus": "1.0.0",
+          "extsprintf": "1.0.2",
+          "json-schema": "0.2.3",
+          "verror": "1.3.6"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/mime-types"
+        ],
+        "dependencies": {
+          "mime-db": "~1.27.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/minimatch"
+        ],
+        "dependencies": {
+          "brace-expansion": "^1.1.7"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/mkdirp/bin",
+          "node_modules/fsevents/node_modules/mkdirp/examples",
+          "node_modules/fsevents/node_modules/mkdirp",
+          "node_modules/fsevents/node_modules/mkdirp/test"
+        ],
+        "dependencies": {
+          "minimist": "0.0.8"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/node-pre-gyp/lib",
+          "node_modules/fsevents/node_modules/node-pre-gyp/lib/util",
+          "node_modules/fsevents/node_modules/node-pre-gyp/lib/util/nw-pre-gyp",
+          "node_modules/fsevents/node_modules/node-pre-gyp"
+        ],
+        "dependencies": {
+          "mkdirp": "^0.5.1",
+          "nopt": "^4.0.1",
+          "npmlog": "^4.0.2",
+          "rc": "^1.1.7",
+          "request": "^2.81.0",
+          "rimraf": "^2.6.1",
+          "semver": "^5.3.0",
+          "tar": "^2.2.1",
+          "tar-pack": "^3.4.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/nopt/bin",
+          "node_modules/fsevents/node_modules/nopt/examples",
+          "node_modules/fsevents/node_modules/nopt/lib",
+          "node_modules/fsevents/node_modules/nopt",
+          "node_modules/fsevents/node_modules/nopt/test"
+        ],
+        "dependencies": {
+          "abbrev": "1",
+          "osenv": "^0.1.4"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/npmlog"
+        ],
+        "dependencies": {
+          "are-we-there-yet": "~1.1.2",
+          "console-control-strings": "~1.1.0",
+          "gauge": "~2.7.3",
+          "set-blocking": "~2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/once"
+        ],
+        "dependencies": {
+          "wrappy": "1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/osenv",
+          "node_modules/fsevents/node_modules/osenv/test"
+        ],
+        "dependencies": {
+          "os-homedir": "^1.0.0",
+          "os-tmpdir": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/rc",
+          "node_modules/fsevents/node_modules/rc/lib",
+          "node_modules/fsevents/node_modules/rc/test"
+        ],
+        "dependencies": {
+          "deep-extend": "~0.4.0",
+          "ini": "~1.3.0",
+          "minimist": "^1.2.0",
+          "strip-json-comments": "~2.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/readable-stream",
+          "node_modules/fsevents/node_modules/readable-stream/lib",
+          "node_modules/fsevents/node_modules/readable-stream/lib/internal/streams"
+        ],
+        "dependencies": {
+          "buffer-shims": "~1.0.0",
+          "core-util-is": "~1.0.0",
+          "inherits": "~2.0.1",
+          "isarray": "~1.0.0",
+          "process-nextick-args": "~1.0.6",
+          "string_decoder": "~1.0.0",
+          "util-deprecate": "~1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/request",
+          "node_modules/fsevents/node_modules/request/lib"
+        ],
+        "dependencies": {
+          "aws-sign2": "~0.6.0",
+          "aws4": "^1.2.1",
+          "caseless": "~0.12.0",
+          "combined-stream": "~1.0.5",
+          "extend": "~3.0.0",
+          "forever-agent": "~0.6.1",
+          "form-data": "~2.1.1",
+          "har-validator": "~4.2.1",
+          "hawk": "~3.1.3",
+          "http-signature": "~1.1.0",
+          "is-typedarray": "~1.0.0",
+          "isstream": "~0.1.2",
+          "json-stringify-safe": "~5.0.1",
+          "mime-types": "~2.1.7",
+          "oauth-sign": "~0.8.1",
+          "performance-now": "^0.2.0",
+          "qs": "~6.4.0",
+          "safe-buffer": "^5.0.1",
+          "stringstream": "~0.0.4",
+          "tough-cookie": "~2.3.0",
+          "tunnel-agent": "^0.6.0",
+          "uuid": "^3.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/rimraf"
+        ],
+        "dependencies": {
+          "glob": "^7.0.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/sntp/examples",
+          "node_modules/fsevents/node_modules/sntp",
+          "node_modules/fsevents/node_modules/sntp/lib",
+          "node_modules/fsevents/node_modules/sntp/test"
+        ],
+        "dependencies": {
+          "hoek": "2.x.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/sshpk/lib",
+          "node_modules/fsevents/node_modules/sshpk/lib/formats",
+          "node_modules/fsevents/node_modules/sshpk"
+        ],
+        "dependencies": {
+          "asn1": "~0.2.3",
+          "assert-plus": "^1.0.0",
+          "bcrypt-pbkdf": "^1.0.0",
+          "dashdash": "^1.12.0",
+          "ecc-jsbn": "~0.1.1",
+          "getpass": "^0.1.1",
+          "jodid25519": "^1.0.0",
+          "jsbn": "~0.1.0",
+          "tweetnacl": "~0.14.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/string_decoder/lib",
+          "node_modules/fsevents/node_modules/string_decoder"
+        ],
+        "dependencies": {
+          "safe-buffer": "^5.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/string-width"
+        ],
+        "dependencies": {
+          "code-point-at": "^1.0.0",
+          "is-fullwidth-code-point": "^1.0.0",
+          "strip-ansi": "^3.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/strip-ansi"
+        ],
+        "dependencies": {
+          "ansi-regex": "^2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/tar/examples",
+          "node_modules/fsevents/node_modules/tar/lib",
+          "node_modules/fsevents/node_modules/tar",
+          "node_modules/fsevents/node_modules/tar/test"
+        ],
+        "dependencies": {
+          "block-stream": "*",
+          "fstream": "^1.0.2",
+          "inherits": "2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/tar-pack",
+          "node_modules/fsevents/node_modules/tar-pack/test"
+        ],
+        "dependencies": {
+          "debug": "^2.2.0",
+          "fstream": "^1.0.10",
+          "fstream-ignore": "^1.0.5",
+          "once": "^1.3.3",
+          "readable-stream": "^2.1.4",
+          "rimraf": "^2.5.1",
+          "tar": "^2.2.1",
+          "uid-number": "^0.0.6"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/tough-cookie/lib",
+          "node_modules/fsevents/node_modules/tough-cookie"
+        ],
+        "dependencies": {
+          "punycode": "^1.4.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/tunnel-agent"
+        ],
+        "dependencies": {
+          "safe-buffer": "^5.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/verror/examples",
+          "node_modules/fsevents/node_modules/verror/lib",
+          "node_modules/fsevents/node_modules/verror",
+          "node_modules/fsevents/node_modules/verror/tests"
+        ],
+        "dependencies": {
+          "extsprintf": "1.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fsevents/node_modules/wide-align"
+        ],
+        "dependencies": {
+          "string-width": "^1.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/glob-base"
+        ],
+        "dependencies": {
+          "glob-parent": "^2.0.0",
+          "is-glob": "^2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/glob-parent"
+        ],
+        "dependencies": {
+          "is-glob": "^2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/http-auth",
+          "node_modules/http-auth/src/auth",
+          "node_modules/http-auth/src",
+          "node_modules/http-auth/src/server"
+        ],
+        "dependencies": {
+          "apache-crypt": "^1.1.2",
+          "apache-md5": "^1.0.6",
+          "bcryptjs": "^2.3.0",
+          "uuid": "^3.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/http-errors"
+        ],
+        "dependencies": {
+          "depd": "1.1.1",
+          "inherits": "2.0.3",
+          "setprototypeof": "1.0.3",
+          "statuses": ">= 1.3.1 < 2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-binary-path"
+        ],
+        "dependencies": {
+          "binary-extensions": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-equal-shallow"
+        ],
+        "dependencies": {
+          "is-primitive": "^2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-glob"
+        ],
+        "dependencies": {
+          "is-extglob": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-number"
+        ],
+        "dependencies": {
+          "kind-of": "^3.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/isobject"
+        ],
+        "dependencies": {
+          "isarray": "1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/kind-of"
+        ],
+        "dependencies": {
+          "is-buffer": "^1.1.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/live-server",
+          "node_modules/live-server/middleware",
+          "node_modules/live-server/test",
+          "node_modules/live-server/test/conf",
+          "node_modules/live-server/test/data"
+        ],
+        "dependencies": {
+          "chokidar": "^1.6.0",
+          "connect": "3.5.x",
+          "faye-websocket": "0.11.x",
+          "http-auth": "3.1.x",
+          "morgan": "^1.6.1",
+          "serve-index": "^1.7.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/micromatch",
+          "node_modules/micromatch/lib"
+        ],
+        "dependencies": {
+          "arr-diff": "^2.0.0",
+          "array-unique": "^0.2.1",
+          "braces": "^1.8.2",
+          "expand-brackets": "^0.1.4",
+          "extglob": "^0.3.1",
+          "filename-regex": "^2.0.0",
+          "is-extglob": "^1.0.0",
+          "is-glob": "^2.0.1",
+          "kind-of": "^3.0.2",
+          "normalize-path": "^2.0.1",
+          "object.omit": "^2.0.0",
+          "parse-glob": "^3.0.4",
+          "regex-cache": "^0.4.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/mime-types"
+        ],
+        "dependencies": {
+          "mime-db": "~1.30.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/minimatch"
+        ],
+        "dependencies": {
+          "brace-expansion": "^1.1.7"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/morgan"
+        ],
+        "dependencies": {
+          "basic-auth": "~1.1.0",
+          "debug": "2.6.8",
+          "depd": "~1.1.0",
+          "on-finished": "~2.3.0",
+          "on-headers": "~1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/morgan/node_modules/debug",
+          "node_modules/morgan/node_modules/debug/src"
+        ],
+        "dependencies": {
+          "ms": "2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/normalize-path"
+        ],
+        "dependencies": {
+          "remove-trailing-separator": "^1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/object.omit"
+        ],
+        "dependencies": {
+          "for-own": "^0.1.4",
+          "is-extendable": "^0.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/on-finished"
+        ],
+        "dependencies": {
+          "ee-first": "1.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/opn"
+        ],
+        "dependencies": {
+          "is-wsl": "^1.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/parse-glob"
+        ],
+        "dependencies": {
+          "glob-base": "^0.3.0",
+          "is-dotfile": "^1.0.0",
+          "is-extglob": "^1.0.0",
+          "is-glob": "^2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/pause-stream",
+          "node_modules/pause-stream/test"
+        ],
+        "dependencies": {
+          "through": "~2.3"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/randomatic"
+        ],
+        "dependencies": {
+          "is-number": "^3.0.0",
+          "kind-of": "^4.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/randomatic/node_modules/is-number"
+        ],
+        "dependencies": {
+          "kind-of": "^3.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/randomatic/node_modules/is-number/node_modules/kind-of"
+        ],
+        "dependencies": {
+          "is-buffer": "^1.1.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/randomatic/node_modules/kind-of"
+        ],
+        "dependencies": {
+          "is-buffer": "^1.1.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/readable-stream",
+          "node_modules/readable-stream/lib",
+          "node_modules/readable-stream/lib/internal/streams"
+        ],
+        "dependencies": {
+          "core-util-is": "~1.0.0",
+          "inherits": "~2.0.3",
+          "isarray": "~1.0.0",
+          "process-nextick-args": "~1.0.6",
+          "safe-buffer": "~5.1.1",
+          "string_decoder": "~1.0.3",
+          "util-deprecate": "~1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/readdirp/examples",
+          "node_modules/readdirp",
+          "node_modules/readdirp/test"
+        ],
+        "dependencies": {
+          "graceful-fs": "^4.1.2",
+          "minimatch": "^3.0.2",
+          "readable-stream": "^2.0.2",
+          "set-immediate-shim": "^1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/regex-cache"
+        ],
+        "dependencies": {
+          "is-equal-shallow": "^0.1.3"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/send"
+        ],
+        "dependencies": {
+          "debug": "2.6.8",
+          "depd": "~1.1.1",
+          "destroy": "~1.0.4",
+          "encodeurl": "~1.0.1",
+          "escape-html": "~1.0.3",
+          "etag": "~1.8.1",
+          "fresh": "0.5.2",
+          "http-errors": "~1.6.2",
+          "mime": "1.3.4",
+          "ms": "2.0.0",
+          "on-finished": "~2.3.0",
+          "range-parser": "~1.2.0",
+          "statuses": "~1.3.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/send/node_modules/debug",
+          "node_modules/send/node_modules/debug/src"
+        ],
+        "dependencies": {
+          "ms": "2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/serve-index"
+        ],
+        "dependencies": {
+          "accepts": "~1.3.3",
+          "batch": "0.6.1",
+          "debug": "2.6.8",
+          "escape-html": "~1.0.3",
+          "http-errors": "~1.6.1",
+          "mime-types": "~2.1.15",
+          "parseurl": "~1.3.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/serve-index/node_modules/debug",
+          "node_modules/serve-index/node_modules/debug/src"
+        ],
+        "dependencies": {
+          "ms": "2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/split/examples",
+          "node_modules/split",
+          "node_modules/split/test"
+        ],
+        "dependencies": {
+          "through": "2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/stream-combiner",
+          "node_modules/stream-combiner/test"
+        ],
+        "dependencies": {
+          "duplexer": "~0.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/string_decoder/lib",
+          "node_modules/string_decoder"
+        ],
+        "dependencies": {
+          "safe-buffer": "~5.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/websocket-driver/lib/websocket/driver",
+          "node_modules/websocket-driver/lib/websocket/driver/hybi",
+          "node_modules/websocket-driver/lib/websocket",
+          "node_modules/websocket-driver"
+        ],
+        "dependencies": {
+          "http-parser-js": ">=0.4.0",
+          "websocket-extensions": ">=0.1.1"
+        }
+      }
+    ]
+  }
+}

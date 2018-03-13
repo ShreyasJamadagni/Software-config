@@ -1,0 +1,40 @@
+"*":
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "autocomplete-plus"
+      "autocomplete-snippets"
+      "spell-check"
+    ]
+    ignoredNames: [
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/shreyas/Documents/Code/"
+    telemetryConsent: "no"
+    themes: [
+      "nucleus-dark-ui"
+      "duotone-blue-dark-syntax"
+    ]
+    titleBar: "hidden"
+  editor:
+    fontFamily: "monaco"
+    fontSize: 18
+    scrollPastEnd: true
+    scrollSensitivity: 60
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "ae126361-6afd-4444-a4ec-3c05752f8b54"
+  "highlight-line":
+    enableUnderline: true
+  "status-bar":
+    fullWidth: false
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
