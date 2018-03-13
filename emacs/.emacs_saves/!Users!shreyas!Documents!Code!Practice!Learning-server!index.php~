@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Responsive Website</title>
+	
+    </head>
+    <body>
+	<style>
+	 h2 {
+	     display: center;
+	     color: grey;
+	 }
+	 #style {
+	     font-size: 87px;
+	 }
+	</style>
+	<?php
+	  $int = "Shreyas";
+	?>
+	
+	<div id="head" style="height:20px; background-color:orange1; font-family:sans-serif;">
+	    <h2><?php echo $int; ?></h2>
+
+	    <div id="toolbar">
+		<div class="items">Home</div>
+		<div class="items">About</div>
+		<div class="items">Downlaod</div>
+		<div class="items">Contact</div>
+
+		<table>
+		    
+		</table>
+		
+	    </div>
+	  
+	</div>
+	
+    </body>
+    
+</html>

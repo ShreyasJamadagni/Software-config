@@ -1,0 +1,19 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	new file:   auto-save-list/.saves-6504-Shreyass-MacBook-Pro.local~
+#	new file:   elpa/emacs-powerline/.gitignore
+#	new file:   elpa/emacs-powerline/AUTHORS
+#	new file:   elpa/emacs-powerline/README.rst
+#	new file:   elpa/emacs-powerline/powerline.el
+#
+# Changes not staged for commit:
+#	modified:   elpa/archives/gnu/archive-contents
+#	modified:   init.el
+#
+# Untracked files:
+#	.emacs_saves/!Users!shreyas!.zshrc~
+#	init.el~
+#

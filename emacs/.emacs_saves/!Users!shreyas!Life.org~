@@ -1,0 +1,180 @@
+#+TITLE:  This is my life
+#+AUTHOR: Shreyas Girish Jamadagni
+#+DESCRIPTION: This document is literally what my life runs on. Use this docuemnt for evry type of note taking. I know this is one place I can find all of my thoughts.
+#+C-c C-u : Go to the higher level
+#+C-c C-f / b : go forward / backward to the heading that is in the same level
+#+C-c | : Add a new table
+#+C-RET : Add a new heading, at current level, after its subtree(s).
+#+M-RET: Add a new heading, at the current level, next
+
+#+UPDATE TABLE.................................................................................................................................................
+|       Date | How do you feel                                                                                                              |
+|------------+------------------------------------------------------------------------------------------------------------------------------|
+| 08-06-2017 | I have been loving note-taking!!! Really helps my mind to concentrate on things specifically and to put my thoughts in order |
+| 09-06-2017 | It feels good to open up to something since there is no one.                                                                 |
+
+
+* E.K.E
+** Topics
+*** +Sensory Organs+
+*** Weather: Advanced
+*** Hormones and Metabolism
+*** Energy
+*** World War 1
+*** Force
+*** Nerves 
+*** +Stoikchyometry+
+*** Blood and its constituents
+*** Quantum mechanics
+*** The brain
+*** Energy Fields
+*** World War 2
+*** Natural Calamities
+*** Higgs Boson, String Theory
+*** DNA
+*** MotherBoards, Printed Circuit Boards, Electronic chips
+*** Planets(Solar System): Advanced
+*** Muscles
+*** Radiactivity(include radioisotopes)
+
+
+* Skype lessons for Avanish
+  Things to go through:
+  
+** +Text Editors+
+*** IDE
+**** What Are IDEs
+**** how do they help
+**** how to get started?
+*** Atom
+*** Brackets
+*** Emacs
+** +Command line+
+*** +What it is+
+*** +WHat it does+
+*** +Basic Commands+
+**** +cd - Change Directory+
+**** +pwd - Print Working directory+
+**** +ls - list+
+**** +mov - move+
+** Basic Programming Concepts
+*** +Syntax+
+*** +Variables+
+*** +Data types+
+*** +Libraries+
+*** +Functions+
+*** +Parameters+
+*** +Conditionals+
+*** Loops
+*** Classes
+*** Objects
+*** Comments
+** Python
+*** Syntax
+*** Applications IRL
+** Github
+*** push
+*** pull
+*** commit
+*** markdown
+
+
+* Potential jobs
+I am trying to find a job that has the perfect use of my capabilities. Basically should
+include alot of science, math, _*problem-solving*_ , coding, etc.
+** Computer Science
+*** Computer Engineer(Software / Hardware)
+*** Cyber Security
+** Science and Math
+*** Chemical
+*** Genetic
+** Pure Science
+*** Psychology
+*** Forensic Scientist
+** Problem-solving
+*** Lawyer
+
+
+* Notes for Book Reading h.w (Lord of the Rings)
+** Author
+*** Author's name is J.R.R Tolkien
+** Literary history at the time of this book's publition
+** In terms of History
+** In terms of culture
+** In terms of Contextual?
+** In terms of socio-politics
+
+
+* Plans for this June
+** TODO Holiday Homework
+*** English
+*** +Hindi? Nahh+
+** TODO Binge watching
+*** Suits
+*** +RiverDale+
+*** +Brooklyn NIne Nine+
+*** The Office
+** TODO +Find the best place to take all notes+ : Answer - Org-mode
+*** Should include
+**** Should be able to take annnotations
+**** Should be easy to take down points
+**** Should take very less space
+**** Should be easy to edit older notes
+
+*** Its purpose
+**** To let me express my thoughts
+**** To store information for later use
+**** To help me organize my ideas - The very thing i am doing right now :)
+**** To help me store my ideas for later thought
+** TODO Finish on the "Plans"
+** Find work.
+
+
+* Learn Languages(Not programming languages) ..This is an application of my intellegence 
+** Languages
+*** German
+*** Arabic
+*** Dutch
+*** Spanish, Though i will take it as second language in IB.
+
+
+* What kind of 'Work' I am looking for
+** Purpose of taking on a job
+*** To give my brain some work to do.
+*** To keep myself occupied
+*** Potentially earn revenue
+*** Have my mind on the academic path.
+*** Experience
+*** To find the best place to put my smart ass brain to use cuz school is nothing
+** Properties
+*** Should involve use of a computer - Would be default as most jobs require a basic computer
+*** Should have a lot of documentation to do - What I mean is that it should have a lot of paperwork.
+*** Should be stressful so that it feels like a real job.
+*** Should obviously have to do with problem-solving
+*** Should involve a lot of calls with team members and staying up late.
+*** Wages is not compulsory; I am just looking for experience.
+** Possible candidates
+*** Program Planning
+*** Docuemntation handling
+    
+
+* TODO - Things I need to fix in my Emacs         
+** Autocomplete(Company)
+** Flycheck
+** Org-bullets
+** The 'Messages' buffer
+** Magit - Github 
+** neotree to show on startup      
+
+
+* TODO - Some Physics I need to work out ..Something to think about
+** Why the ball will spin more when it is bowled underarm ra
+
+
+* TODO - Find the most efficient setup of my study desk.
+
+
+* Should i boot camp my mac for gaming? ..Something to think about
+
+* Raspberry Pi!!
+** Find a use for it...

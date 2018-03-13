@@ -1,0 +1,49 @@
+import java.swing.*;
+import java.Dimension;
+
+public class Window {
+    private JFrame frame = new JFrame("Multipiler!");
+    private int x, y;
+    private Dimension d = new Dimension(x, y);
+    private boolean running;
+    private Main main;
+
+    public Window(width, height, main) {
+        this.x = width;
+        this.y = height;
+        this.main = main;
+
+        frame.setResizable(false);
+        frame.setLocationRelativeTo(null);
+        frame.setPrefferedSize(d);
+        frame.setDefaultCloseOperation(this.main.end())
+        frame.pack();
+    }
+}
+
+public class Main {
+    private void start() {
+        while (running == true){
+            if (running == false) {
+                break;
+            }
+
+            new Window();
+
+        }
+    }
+
+    private int end() {
+        running = false;
+        return 3;
+    }
+
+    public Main(){
+        running = true;
+        start();
+    }
+
+    public static void main(String [args]) {
+        new Main();
+    }
+}

@@ -1,0 +1,117 @@
+;; This buffer is for text that is not saved, and for Lisp evaluation.
+;; To create a file, visit it with C-x C-f and enter text in its buffer.
+
+String
+Integers
+Float
+Double
+Array
+Tuple
+Boolean
+
+
+"Wordsss"
+
+12, -76
+
+34.78, 99.7, 23, -0.9
+
+h.append("Heeiil")
+
+[1, 2, 3, 4]
+0  1  2  3
+
+print out(h[1])
+
+("hhs7", 6, 9.7)
+1       2   3
+
+print out(r.3)
+
+true or false
+
+import swing;
+
+setVisbile();
+
+function print(n, h, c){
+y = n.characters.count
+d = [8,9,2,6]
+d.append(43)
+return y
+}
+
+j = "HeyHeel"
+
+e = print(j)
+
+function append(new-element){
+}
+
+if, else, elseif
+
+u = 3
+
+
+
+
+if (variable == != >= <= && || value){
+     body 
+}
+
+==; equals to
+!=; not equals to
+>=; greater than or equal to
+<=; less than or equal to
+&&; and
+||; or
+
+if(u == 5){
+ print("reached")
+} else {
+ print("not reached")
+}elseif (u == 2){
+
+}
+
+if (u == 3 && t == 4){
+
+}
+
+if (u == 3 || t == 4){
+
+}
+
+for, while, foreach / for-in
+
+for(declaration of a variable;termination value; step value){
+
+}
+
+for(i = 1;i == 5; i++){
+      print(i)
+}
+
+while(condition){
+      
+}
+
+u = true
+
+while(u == true){
+
+
+score++
+if (score > 13){
+u = false
+   }
+   }
+
+
+   for (value in variable){
+   
+   }
+
+   g = "Hello World"
+
+   break

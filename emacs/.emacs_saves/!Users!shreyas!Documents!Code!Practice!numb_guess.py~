@@ -1,0 +1,24 @@
+import random
+
+answer = random.randint(1,20)
+guessed = False
+guess = 0
+
+while (guessed == False):
+    guess = int(input("Your Guess: "))
+
+    if (guess == answer):
+        print "You Got it!"
+        break
+        # resp = int(input("Play again? (1 or 0): "))
+        #
+        # if (resp == 0):
+        #     print "Thanks for playing!"
+        #     break
+        # if (resp == 1):
+        #     continue
+    if (guessed > answer):
+        print "lower!"
+
+    if (guess < answer):
+        print "higher!"

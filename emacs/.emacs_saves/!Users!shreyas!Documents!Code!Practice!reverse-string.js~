@@ -1,0 +1,12 @@
+var stringy = "Shreyas is the only person with a 197 iq";
+var modString = [];
+var revString = "";
+
+for (char in stringy) {
+    modString.push(char);
+}
+
+console.log(modString[0]);
+revString = modString.join();
+
+// console.log("Result: " + revString);

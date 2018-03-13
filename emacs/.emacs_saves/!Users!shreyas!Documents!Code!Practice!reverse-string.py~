@@ -1,0 +1,11 @@
+string = "supercalifragilisticexpialidocious"
+modString = []
+revString = ""
+
+for s in string:
+    modString.append(s)
+
+for e in modString:
+    revString = revString + e
+
+print "Result: " + revString

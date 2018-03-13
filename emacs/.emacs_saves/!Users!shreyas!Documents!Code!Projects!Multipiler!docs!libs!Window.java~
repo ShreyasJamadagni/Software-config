@@ -1,0 +1,17 @@
+import Dimension;
+import Main;
+import javax.swing.*;
+
+public class Window {
+    private Jframe frame;
+    private final int width,height;
+    private final Dimension d = new Dimension(width, height);
+    
+    public Window(Main main){
+	Jframe frame = new Jframe("Multipiler");
+
+	frame.setPrefferedSize(this.d);
+	frame.setResizeable(false);
+	frame.setLocationRelativeTo(null);
+	frame.setDefaultCloseOperationTo(main.end());
+    }

@@ -1,0 +1,37 @@
+""" This is a program to capitalize the firs letter of every for words """
+
+def Capitalize(sen):
+    modArr = []
+    for s in sen:
+        modArr.append(s)
+
+    words = []
+    i = 0
+    temp = ""
+    n = len(modArr) - 1
+    for v in modArr:
+        if v == " ":
+            words.append(temp)
+            temp = ""
+        else:
+            temp = temp + modArr[i]
+            if i == n:
+                words.append(temp)
+        i = i + 1
+
+    temp1 = []
+    sen = ""
+    for c in words:
+        for v in c:
+            temp1.append(v)
+        e = temp1[0].capitalize()
+        temp1[0] = e
+        for b in temp1:
+            sen = sen + b
+        sen = sen + " "
+        temp1 = []
+
+    return sen
+
+# keep this function call here
+print Capitalize(raw_input())

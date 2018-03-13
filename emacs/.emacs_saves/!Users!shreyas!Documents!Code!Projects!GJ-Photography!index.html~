@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title>Girish Jamadagni Photography Page</title>
+  </head>
+  <body style="background-color: #795858">
+    <div id="Head" style="background-color: red;height: 120px">
+      <h2 style="float: left;margin-left: 20px;color: yellow;font-family: Heveletica Nue">Welcome!</h2>
+    </div>
+    
+  </body>
+</html>

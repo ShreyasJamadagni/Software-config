@@ -1,0 +1,7 @@
+import Client
+
+public class Database {
+  init(String: host, Client: cl) {
+    
+  }
+}

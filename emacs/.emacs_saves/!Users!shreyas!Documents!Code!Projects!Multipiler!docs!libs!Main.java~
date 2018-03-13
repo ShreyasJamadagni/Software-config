@@ -1,0 +1,27 @@
+import Window;
+
+public class Main{
+    private boolean running;
+    
+    public Main(){
+	start();
+	new Window(this);
+    }
+
+    private void start(){
+	this.running = true;
+
+	while(running){
+	    
+	}
+    }
+    
+    private int end(){
+	this.running = false;
+	return 3;
+    }
+    
+    public static void main(String [args]){
+	new Main();
+    }
+}

@@ -1,0 +1,5 @@
+import sockets
+
+def init():
+    s = socket.sockets()
+    
