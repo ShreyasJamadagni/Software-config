@@ -1,0 +1,35 @@
+# If you come from bash you might have to change your $PATH.                                        
+# export PATH=$HOME/bin:/usr/local/bin:$PATH                                                        
+
+# Path to your oh-my-zsh installation.                                                              
+export ZSH=/Users/shreyas/.oh-my-zsh
+export EDITOR="emacs -nw"
+
+# Set name of the theme to load. Optionally, if you set this to "random"                            
+# it'll load a random theme each time that oh-my-zsh is loaded.                                     
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes                                         
+ZSH_THEME="tellme" #or "dogenpunk", "agnoster", "jtriley", "gnzh", "ys"                             
+
+POWERLEVEL9K_ALWAYS_SHOW_USER=true
+POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
+
+. `brew --prefix`/etc/profile.d/z.sh
+
+alias py=python3
+alias edits=emacs
+alias edit="emacs -nw"
+alias clr=clear
+alias sr="source /Users/shreyas/.zshrc"
+alias wake=caffeinate
+alias du="du -h"
+alias .=sudo
+alias ls="ls -a"
+
+DISABLE_AUTO_TITLE="true"
+                                   
+ENABLE_CORRECTION="true"
+
+plugins=(git z brew)
+
+source $ZSH/oh-my-zsh.sh
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
